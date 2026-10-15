@@ -1,0 +1,13 @@
+{
+  "label": "Class types",
+  "cover": ["Every 6am class", "has these people.", "Which one are you?"],
+  "slides": [
+    {"tag": "Is this you?", "title": "The whiteboard lawyer.", "body": "Reads the workout four times. Still asks if the run comes before or after the burpees."},
+    {"tag": "Is this you?", "title": "The warm-up negotiator.", "body": "Two arm circles. Calls it mobility. Stiff until Thursday."},
+    {"tag": "Is this you?", "title": "The creative scorer.", "body": "Scaled the pull-ups. Wrote RX on the board. The coach saw. The coach always sees."},
+    {"tag": "Is this you?", "title": "The chalk cloud.", "body": "Enough chalk for the whole class. Has not touched a barbell yet."},
+    {"tag": "Is this you?", "title": "The last-round liar.", "body": "Said last round three rounds ago. Still going."},
+    {"tag": "Is this you?", "title": "The quiet weapon.", "body": "Never talks. Never complains. Finishes first every single time."}
+  ],
+  "end": ["Tag a training partner.", "You know which slide."]
+}
