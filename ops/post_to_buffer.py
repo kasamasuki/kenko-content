@@ -23,7 +23,7 @@ log_path = os.path.join(HERE, "posted.log")
 if os.path.exists(log_path) and any(l.startswith(date + "\t") for l in open(log_path)):
     sys.exit(f"Already scheduled for {date}; not posting twice.")
 
-caption = open(caption_path if os.path.isabs(caption_path) else os.path.join(HERE, caption_path)).read().strip()
+caption = open(caption_path if os.path.exists(caption_path) else os.path.join(HERE, caption_path)).read().strip()
 for bad, why in [("—", "em dash"), ("#", "hashtag"), ("crossfit", "the word CrossFit")]:
     if bad in caption.lower():
         sys.exit(f"Caption breaks brand rules: contains {why}.")
