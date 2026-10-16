@@ -1,0 +1,6 @@
+buffer_key.txt
+**/buffer_key.txt
+ops/post_history.json
+.DS_Store
+*.pages
+__pycache__/
