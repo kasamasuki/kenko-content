@@ -1,18 +1,26 @@
 # Kenko daily Instagram playbook (@coach_chris_kenko)
 
-One feed post per day at 4:00pm Melbourne time, scheduled through Buffer the evening before.
+Two feed posts per day, scheduled through Buffer the evening before (changed from one a day on 2026-10-17):
+- 11:00am: coaching insight carousel (slot DATE-am).
+- 4:00pm: relatable gym culture carousel, following the rotation below (slot DATE).
+The two posts on the same day must cover different topics.
 Updated 2026-10-15 after auditing 150 posts: relatable gym-culture carousels and Reels (Apr to Jul)
 had a median reach of about 1,280; long educational posts with site links (Sep to Oct) had about 220.
 
-## Weekly rotation (by the weekday the post goes OUT)
+## 11am slot: coaching insight, every day
+- One sharp coach-level observation per carousel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems). One idea per slide, no lecture.
+- End the caption with "Save this for your next session." then a permitted CTA.
+- Rotate themes across the week so no theme repeats within 7 days.
+
+## 4pm slot: weekly rotation (by the weekday the post goes OUT)
 - Mon: Relatable gym culture carousel ("that person in class", coach's-eye humour).
-- Tue: Coaching insight carousel. One sharp observation, one idea per slide, no lecture.
+- Tue: Relatable gym culture carousel.
 - Wed: Second-person story carousel ("You walk in at 5:05am. The whiteboard says..."). Never invent first-person events as if they happened to Chris.
-- Thu: Coaching insight carousel.
+- Thu: "Which slide is you?" carousel.
 - Fri: Relatable gym culture carousel.
 - Sat: "Which slide is you?" carousel (class types, workout moments, excuses). The format that reached 121K.
 - Sun: Relatable gym culture carousel.
-- Proof post: about 1 in 20 posts replaces a slot with a real product artifact, only when genuine data exists. Only proof posts may mention kenkoperformance.com (use --proof).
+- Proof post: about 1 in 20 posts (roughly one every 10 days) replaces an 11am slot with a real product artifact, only when genuine data exists. Only proof posts may mention kenkoperformance.com (use --proof).
 
 ## What works (from the audit)
 - Carousels of 5 to 8 slides beat single images. Default to carousels (tools/carousel.py).

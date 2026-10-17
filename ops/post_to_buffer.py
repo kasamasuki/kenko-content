@@ -1,27 +1,32 @@
 #!/usr/bin/env python3
-"""Schedule one Instagram feed post (single image or carousel) on Buffer for 4pm Melbourne time.
-Usage: post_to_buffer.py YYYY-MM-DD captions/YYYY-MM-DD.txt IMAGE_URL [IMAGE_URL ...] [--proof] [--dry-run]
+"""Schedule one Instagram feed post (single image or carousel) on Buffer.
+Usage: post_to_buffer.py SLOT captions/SLOT.txt IMAGE_URL [IMAGE_URL ...] [--proof] [--dry-run]
+SLOT is YYYY-MM-DD for the 4pm post or YYYY-MM-DD-am for the 11am post (Melbourne time).
 Pass slide URLs in order for a carousel (max 10). --proof allows a kenkoperformance.com mention.
 Reads the API key from the BUFFER_KEY environment variable (a GitHub Actions secret),
 falling back to buffer_key.txt next to this script. Logs to posted.log
-and refuses to schedule the same date twice."""
+and refuses to schedule the same slot twice."""
 import json, sys, os, urllib.request, datetime
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CHANNEL_ID = "6a97e322065799be4671f725"   # @coach_chris_kenko
-POST_HOUR = 16
+POST_HOURS = {"pm": 16, "am": 11}
 MAX_WORDS = 80
 
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
-date, caption_path, images = args[0], args[1], args[2:]
+slot, caption_path, images = args[0], args[1], args[2:]
+date = slot[:10]
+post_hour = POST_HOURS["am" if slot.endswith("-am") else "pm"]
+if slot not in (date, date + "-am"):
+    sys.exit("SLOT must be YYYY-MM-DD or YYYY-MM-DD-am.")
 dry, proof = "--dry-run" in sys.argv, "--proof" in sys.argv
 if not 1 <= len(images) <= 10:
     sys.exit("Give 1 to 10 image URLs.")
 
 log_path = os.path.join(HERE, "posted.log")
-if os.path.exists(log_path) and any(l.startswith(date + "\t") for l in open(log_path)):
-    sys.exit(f"Already scheduled for {date}; not posting twice.")
+if os.path.exists(log_path) and any(l.startswith(slot + "\t") for l in open(log_path)):
+    sys.exit(f"Already scheduled for {slot}; not posting twice.")
 
 caption = open(caption_path if os.path.exists(caption_path) else os.path.join(HERE, caption_path)).read().strip()
 for bad, why in [("—", "em dash"), ("#", "hashtag"), ("crossfit", "the word CrossFit")]:
@@ -36,7 +41,7 @@ if len(caption.splitlines()[0].split()) > 10:
 if any(ord(c) > 0x2600 for c in caption):
     sys.exit("Caption breaks brand rules: contains an emoji or symbol.")
 
-local = datetime.datetime.fromisoformat(date).replace(hour=POST_HOUR, tzinfo=ZoneInfo("Australia/Melbourne"))
+local = datetime.datetime.fromisoformat(date).replace(hour=post_hour, tzinfo=ZoneInfo("Australia/Melbourne"))
 due = local.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 query = """mutation($input: CreatePostInput!) { createPost(input: $input) {
@@ -60,6 +65,6 @@ print(json.dumps(resp, indent=2))
 post = (resp.get("data") or {}).get("createPost") or {}
 if "post" in post:
     with open(log_path, "a") as f:
-        f.write(f"{date}\t{post['post']['id']}\t{due}\t{images[0]}\t{len(images)} images\n")
+        f.write(f"{slot}\t{post['post']['id']}\t{due}\t{images[0]}\t{len(images)} images\n")
 else:
     sys.exit(1)
