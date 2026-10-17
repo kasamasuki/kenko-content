@@ -1,0 +1,13 @@
+{
+  "label": "Coach translations",
+  "cover": ["What you say.", "What your coach", "actually hears."],
+  "slides": [
+    {"tag": "You say", "title": "\"I'm just a bit tight.\"", "body": "We hear: I skipped the warm-up and I'm about to blame my hamstrings."},
+    {"tag": "You say", "title": "\"Is this weight okay?\"", "body": "We hear: It's already loaded. I want permission, not advice."},
+    {"tag": "You say", "title": "\"I'll just do one more.\"", "body": "We hear: The form left two reps ago and nobody told me."},
+    {"tag": "You say", "title": "\"I lost count of my rounds.\"", "body": "We hear: The score on the board is going to be optimistic."},
+    {"tag": "You say", "title": "\"I'm not competitive.\"", "body": "We hear: I have checked the leaderboard four times since lunch."},
+    {"tag": "You say", "title": "\"That felt easy.\"", "body": "We hear: Nobody watch the slow-motion video."}
+  ],
+  "end": ["Tag the one who's", "\"not competitive.\""]
+}
