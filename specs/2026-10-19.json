@@ -1,0 +1,13 @@
+{
+  "label": "Gym culture",
+  "cover": ["Every gym has", "unwritten rules.", "Nobody tells you."],
+  "slides": [
+    {"tag": "Rule 1", "title": "Your spot is your spot.", "body": "Nobody assigned it. Take someone else's once and you'll feel the stare for a month."},
+    {"tag": "Rule 2", "title": "The good rope is never free.", "body": "There are forty skipping ropes. One is the right length. Someone hid it in 2023."},
+    {"tag": "Rule 3", "title": "Strip your bar. Every plate.", "body": "A 20 left on the bar is not a gift for the next class."},
+    {"tag": "Rule 4", "title": "The last one finishing gets the loudest cheer.", "body": "Everyone stays. Everyone claps. No exceptions."},
+    {"tag": "Rule 5", "title": "The playlist is not a request line.", "body": "You can ask. You'll still get the same playlist as last week."},
+    {"tag": "Rule 6", "title": "Chalk stays in the bucket.", "body": "Not on the rower. Not on the floor. Definitely not on the coach."}
+  ],
+  "end": ["Tag the one who", "breaks rule two."]
+}

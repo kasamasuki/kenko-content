@@ -1,0 +1,13 @@
+{
+  "label": "Energy systems",
+  "cover": ["Round one", "should feel", "too easy."],
+  "slides": [
+    {"tag": "The mistake", "title": "You didn't gas out. You went out hot.", "body": "Round one at sprint pace. Rounds three to five at survival pace. The clock noticed."},
+    {"tag": "Why it happens", "title": "Fresh legs lie.", "body": "The first couple of minutes feel free. They're a loan, and it's due by minute four."},
+    {"tag": "The fix", "title": "Pick a pace you can repeat.", "body": "If round one is faster than you could hold for the last round, it's too fast."},
+    {"tag": "The check", "title": "Can you still say a few words?", "body": "In anything over 10 minutes, you should. Gasping by minute three? Back off."},
+    {"tag": "The split", "title": "Even splits. Then push late.", "body": "Holding pace wins long workouts. Fading splits lose them by a full round."},
+    {"tag": "The rule", "title": "Spend your sprint last.", "body": "Save it for the final 2 to 3 minutes. Then empty the tank."}
+  ],
+  "end": ["Send it to the one", "who wins round one", "and loses the workout."]
+}
