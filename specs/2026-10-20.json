@@ -1,0 +1,43 @@
+{
+  "label": "Gym culture",
+  "cover": [
+    "Coach speak,",
+    "translated."
+  ],
+  "slides": [
+    {
+      "tag": "Coach says",
+      "title": "\"This one's a quick one.\"",
+      "body": "Eight minutes. You will remember every single one of them."
+    },
+    {
+      "tag": "Coach says",
+      "title": "\"Light and fast.\"",
+      "body": "It will be neither. You'll know by round two."
+    },
+    {
+      "tag": "Coach says",
+      "title": "\"Scale as needed.\"",
+      "body": "You will need to. Probably earlier than you think."
+    },
+    {
+      "tag": "Coach says",
+      "title": "\"Last round!\"",
+      "body": "For you, it's the last round. For half the class, there are two more."
+    },
+    {
+      "tag": "Coach says",
+      "title": "\"Grab a partner.\"",
+      "body": "Not your usual partner. We saw you two talking through the warm-up."
+    },
+    {
+      "tag": "Coach says",
+      "title": "\"Should feel good today.\"",
+      "body": "It won't. But you'll feel great at 9am."
+    }
+  ],
+  "end": [
+    "Tag the partner who",
+    "falls for slide one."
+  ]
+}

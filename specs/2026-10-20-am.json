@@ -1,0 +1,45 @@
+{
+  "label": "Programming",
+  "cover": [
+    "Stop testing",
+    "your max",
+    "every week."
+  ],
+  "slides": [
+    {
+      "tag": "The mistake",
+      "title": "A max is a test. Not a workout.",
+      "body": "Testing doesn't build strength. It shows what the last six weeks built."
+    },
+    {
+      "tag": "Why it stalls",
+      "title": "Every max costs you a week.",
+      "body": "Heavy singles beat you up for days. Max every week and you never train. You just audition."
+    },
+    {
+      "tag": "The data",
+      "title": "Weekly retests are noise.",
+      "body": "Sleep, stress and coffee swing a max by 5%. Real strength moves slower than that."
+    },
+    {
+      "tag": "The fix",
+      "title": "Retest every 8 to 12 weeks.",
+      "body": "Build for a block. Ease off for a few days. Then find out."
+    },
+    {
+      "tag": "In between",
+      "title": "Track your sets of 3 and 5.",
+      "body": "Same weight, faster bar, cleaner reps. That's progress, and it's free."
+    },
+    {
+      "tag": "The rule",
+      "title": "Earn the test. Don't chase it.",
+      "body": "Show up fresh, on a plan, once a block. The number takes care of itself."
+    }
+  ],
+  "end": [
+    "Send it to the one",
+    "who maxes out",
+    "every Friday."
+  ]
+}
