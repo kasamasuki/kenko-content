@@ -1,0 +1,45 @@
+{
+  "label": "Form breakdown",
+  "cover": [
+    "Your deadlift",
+    "starts before",
+    "the bar moves."
+  ],
+  "slides": [
+    {
+      "tag": "The mistake",
+      "title": "You yank it off the floor.",
+      "body": "Arms loose, hips shoot up, back rounds. The bar was always winning that one."
+    },
+    {
+      "tag": "The fix",
+      "title": "Pull the slack out first.",
+      "body": "Squeeze the bar up into the plates until it clicks. Then it leaves the floor."
+    },
+    {
+      "tag": "The cue",
+      "title": "Push the floor. Don't pull the bar.",
+      "body": "Legs drive it up. Your back's only job is to hold its shape."
+    },
+    {
+      "tag": "The tell",
+      "title": "Hips rising first?",
+      "body": "Your chest is lagging behind. Set up tighter and keep both rising together."
+    },
+    {
+      "tag": "The lats",
+      "title": "Keep the bar on your shins.",
+      "body": "Lats on, armpits down. A bar that drifts forward gets heavier every centimetre."
+    },
+    {
+      "tag": "The rule",
+      "title": "Slow start. Fast finish.",
+      "body": "The first inch off the floor sets up every inch after it. Rush it and you pay for the whole rep."
+    }
+  ],
+  "end": [
+    "Send it to the one",
+    "who rips it off",
+    "the floor."
+  ]
+}

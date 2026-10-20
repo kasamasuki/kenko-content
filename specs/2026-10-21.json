@@ -1,0 +1,44 @@
+{
+  "label": "A 5am story",
+  "cover": [
+    "5:05am.",
+    "The whiteboard:",
+    "\"Fun one today.\""
+  ],
+  "slides": [
+    {
+      "tag": "5:05am",
+      "title": "You read it twice.",
+      "body": "Coach is smiling. Coaches only smile like that when they wrote it themselves."
+    },
+    {
+      "tag": "5:20am",
+      "title": "You grab the rower by the fan.",
+      "body": "Three people had the same idea. One of them is very, very fast."
+    },
+    {
+      "tag": "5:31am",
+      "title": "Round one feels great.",
+      "body": "You think about going faster. It's the last good idea you'll have for a while."
+    },
+    {
+      "tag": "5:44am",
+      "title": "You stop counting rounds.",
+      "body": "You start counting ceiling tiles instead. There are 48. You've checked twice."
+    },
+    {
+      "tag": "5:58am",
+      "title": "Time. You're on the floor.",
+      "body": "Someone holds out a hand for a high five. You'll get to it in a minute."
+    },
+    {
+      "tag": "6:10am",
+      "title": "In the car park, you check tomorrow.",
+      "body": "It says \"Fun one today.\" Again. You set the alarm anyway."
+    }
+  ],
+  "end": [
+    "Tag the one",
+    "on the next rower."
+  ]
+}
