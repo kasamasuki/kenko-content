@@ -1,0 +1,45 @@
+{
+  "label": "Programming logic",
+  "cover": [
+    "Your heavy sets",
+    "need more rest",
+    "than you think."
+  ],
+  "slides": [
+    {
+      "tag": "The mistake",
+      "title": "You rest until you feel ready.",
+      "body": "That's usually a minute and a sip of water. Your breathing is ready. Your legs are not."
+    },
+    {
+      "tag": "The why",
+      "title": "Breath comes back fast. Strength doesn't.",
+      "body": "Your heart rate settles in about a minute. The fuel for a heavy rep takes three to five minutes."
+    },
+    {
+      "tag": "The rule",
+      "title": "Heavy 3s and 5s: rest 3 to 5 minutes.",
+      "body": "Yes, really. Start a timer. Put the phone down."
+    },
+    {
+      "tag": "The tell",
+      "title": "Losing reps every set?",
+      "body": "Same weight, fewer reps, uglier last rep. That isn't your fitness. That's your rest."
+    },
+    {
+      "tag": "The exception",
+      "title": "Accessories can move faster.",
+      "body": "60 to 90 seconds is fine for the small stuff. Save the long breaks for the big lifts."
+    },
+    {
+      "tag": "The payoff",
+      "title": "Better sets beat more sets.",
+      "body": "Five sets with full rest build more than eight rushed ones done in the same time."
+    }
+  ],
+  "end": [
+    "Send it to the one",
+    "who never rests",
+    "long enough."
+  ]
+}

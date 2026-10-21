@@ -1,0 +1,44 @@
+{
+  "label": "Workout moments",
+  "cover": [
+    "3, 2, 1...",
+    "Which one",
+    "are you?"
+  ],
+  "slides": [
+    {
+      "tag": "Is this you?",
+      "title": "The early starter.",
+      "body": "Goes on two. Swears they heard go. Four reps up and fooling nobody."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The collar fixer.",
+      "body": "Clock's running. Still fixing the collar. Still fixing the collar."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The last sip.",
+      "body": "Drink at three. Drink at two. Somehow still thirsty at go."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The co-host.",
+      "body": "Counts down with the coach. Louder than the coach. Slightly ahead of the coach."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The ritual.",
+      "body": "Chalk, clap, grip, regrip, chalk again. Misses the first ten seconds every time."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The statue.",
+      "body": "Doesn't move a muscle on three, two, one. On go, they're simply gone."
+    }
+  ],
+  "end": [
+    "Tag the one",
+    "who starts on two."
+  ]
+}
