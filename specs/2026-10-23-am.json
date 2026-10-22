@@ -1,0 +1,44 @@
+{
+  "label": "Recovery mistakes",
+  "cover": [
+    "Sore doesn't mean",
+    "it worked."
+  ],
+  "slides": [
+    {
+      "tag": "The mistake",
+      "title": "You judge a session by tomorrow's stairs.",
+      "body": "Can't sit down without a noise? Must have been a good day. That's the trap."
+    },
+    {
+      "tag": "The why",
+      "title": "Soreness tracks new, not good.",
+      "body": "New movements, new ranges and lots of lowering make you sore. Getting stronger doesn't have to."
+    },
+    {
+      "tag": "The tell",
+      "title": "Same program, less soreness?",
+      "body": "It hasn't stopped working. Your body adapted. That's the point."
+    },
+    {
+      "tag": "The cost",
+      "title": "Chasing sore wrecks the next session.",
+      "body": "Smash Monday, limp through Tuesday and Wednesday. One big day, two lost."
+    },
+    {
+      "tag": "The better measure",
+      "title": "Track what the bar says.",
+      "body": "More weight, more reps, cleaner reps, faster times. That's progress. Soreness is a side effect."
+    },
+    {
+      "tag": "The rule",
+      "title": "Leave able to train tomorrow.",
+      "body": "The best session is the one that lets you come back and do it again."
+    }
+  ],
+  "end": [
+    "Send it to the one",
+    "who rates workouts",
+    "by the limp."
+  ]
+}

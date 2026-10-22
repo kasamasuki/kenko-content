@@ -1,0 +1,44 @@
+{
+  "label": "Gym culture",
+  "cover": [
+    "Every gym's",
+    "lost property",
+    "box has these."
+  ],
+  "slides": [
+    {
+      "tag": "Found",
+      "title": "One knee sleeve.",
+      "body": "Never two. The other one is in a different gym, waiting just as patiently."
+    },
+    {
+      "tag": "Found",
+      "title": "The shaker bottle.",
+      "body": "Lid on since August. Nobody is brave enough to open it. Nobody ever will be."
+    },
+    {
+      "tag": "Found",
+      "title": "Forty hair ties.",
+      "body": "Collected from every rig, rower and collar. The owners left long ago."
+    },
+    {
+      "tag": "Found",
+      "title": "A single shoe.",
+      "body": "Someone drove home with one shoe. They have questions. So do we."
+    },
+    {
+      "tag": "Found",
+      "title": "The rope with your name on it.",
+      "body": "Taped handles, cut to your height. You said you'd grab it tomorrow. That was March."
+    },
+    {
+      "tag": "Found",
+      "title": "A hoodie nobody claims.",
+      "body": "It's been there so long it's basically gym merch now. Coach wears it on cold mornings."
+    }
+  ],
+  "end": [
+    "Tag the training partner",
+    "who owns slide two."
+  ]
+}
