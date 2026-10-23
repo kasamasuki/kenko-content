@@ -1,0 +1,13 @@
+{
+  "label": "Form breakdowns",
+  "cover": ["Your front rack", "isn't a wrist", "problem."],
+  "slides": [
+    {"tag": "The mistake", "title": "You blame your wrists.", "body": "Bar sits in your palms, wrists scream, so you stretch your wrists. Nothing changes."},
+    {"tag": "The why", "title": "Tight lats drop your elbows.", "body": "Elbows sink, the bar rolls into your hands, and your wrists hold a load they were never built for."},
+    {"tag": "The fix", "title": "Fingertips, not fists.", "body": "Two or three fingers under the bar is a real front rack. Shoulders hold it. Hands just steady it."},
+    {"tag": "The fix", "title": "Elbows high and forward.", "body": "Point them at the wall in front of you. The bar sits on your shoulders, not your palms."},
+    {"tag": "The drill", "title": "Open the lats before you load.", "body": "Two minutes of lat stretching, then a few slow front squats with an empty bar. Every time."},
+    {"tag": "The tell", "title": "Watch your elbows in the hole.", "body": "If they drop at the bottom of a front squat, the bar tips forward and so do you."}
+  ],
+  "end": ["Send it to the one", "who front racks", "with their wrists."]
+}

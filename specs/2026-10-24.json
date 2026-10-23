@@ -1,0 +1,13 @@
+{
+  "label": "Saturday partner workout",
+  "cover": ["Partner workout.", "Which one", "are you?"],
+  "slides": [
+    {"tag": "Is this you?", "title": "The negotiator.", "body": "Offers to split the reps evenly. Somehow you end up with all the burpees."},
+    {"tag": "Is this you?", "title": "The sprinter.", "body": "Flies through round one, tags you in gasping. You get rounds two through five."},
+    {"tag": "Is this you?", "title": "The cheerleader.", "body": "Encouragement is constant and very loud. Reps, slightly less so."},
+    {"tag": "Is this you?", "title": "The accountant.", "body": "Counts every rep out loud. Yours, strictly. Theirs, generously."},
+    {"tag": "Is this you?", "title": "The tag-out artist.", "body": "Five reps, tap out. Four reps, tap out. Three reps and a long look at the clock."},
+    {"tag": "Is this you?", "title": "The carrier.", "body": "Does most of the work, says it was dead even, and means it."}
+  ],
+  "end": ["Tag the partner", "who counts generously."]
+}
