@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Partner workout.", "Who did more", "of the work?"],
+  "options": ["A. Me, obviously", "B. My partner, sadly", "C. We don't talk about it"],
+  "ask": "Reply with A, B or C."
+}
