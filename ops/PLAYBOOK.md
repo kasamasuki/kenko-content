@@ -58,6 +58,22 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - Extra Story on top of the normal 6:30pm one. Card from tools/story.py to posts/DATE-rate/01.png, queued as ops/queue/DATE-rate.json ({"images": [URL]}), NO caption file.
 - Show a deliberately absurd or famously awful workout (e.g. "100 burpees. Then 100 more. For time.") with kicker "Rate this workout" and options like "A. Love it", "B. Hate it", "C. Coach is unwell", then "Reply with A, B or C." Affectionate humour, never a workout anyone should actually attempt as written.
 
+## Hooks (added 2026-10-24)
+The hook is the first line of the caption AND the first slide or Reel frame. It decides whether anyone sees the rest.
+- For every feed post, draft at least 5 candidate hooks, then pick the strongest. Specific beats general: a number, a named movement, a named moment ("5:05am", "round three", "the last rep").
+- 10 words or fewer. Lands on the first frame. No warm-up words ("So,", "Here's the thing", "Let's talk about").
+- Formats that work: "Stop [common habit]." / "You're not [X]. You're [Y]." / "[Common belief] is wrong." / "Coaches spot this in 3 seconds." / "The rep everyone cheats." / "We all know..." / a direct question.
+
+### Provocative hooks: occasionally
+- A provocative hook makes a bold, contrarian or slightly cheeky claim that makes people stop, disagree or tag someone. Use one about 2 to 3 times a week across all feed posts. Never two on the same day, never in the same slot two days running.
+- It must be true, or a position an experienced coach would defend, and the post must pay it off by slide 2 or beat 2. No bait the content doesn't back up.
+- Punch at habits, myths and gym culture, never at people: nothing mean about beginners, bodies, injuries, other gyms, coaches or named athletes. No health scare claims. Brand rules still apply (no "CrossFit", no emojis, no em dashes).
+- Good examples: "Stretching won't fix your squat." / "You're not overtrained. You're under-slept." / "That PR didn't count. Check your depth." / "Stop using burpees as punishment." / "Your coach is lying about the last round." / "The 5am crowd isn't more disciplined. They just go to bed earlier."
+- Too far (don't): anything that mocks a beginner or a body, "Your gym is ripping you off", fake stats, or claims like "Squats wreck your knees".
+
+### Hook log
+- Append one line per feed post to ops/hooks.log, in the same commit as its queue file: SLOT<TAB>standard|provocative<TAB>the hook. Read it before writing so provocative hooks stay occasional, and so no hook repeats.
+
 ## What works (from the audit)
 - Carousels of 5 to 8 slides beat single images. Default to carousels (tools/carousel.py).
 - Short, punchy hooks of 10 words or fewer. Questions and "we all know..." framings did best.
