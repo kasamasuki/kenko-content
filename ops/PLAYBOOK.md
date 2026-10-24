@@ -1,11 +1,16 @@
 # Kenko daily Instagram playbook (@coach_chris_kenko)
 
-Two feed posts and one Story per day (plus a Monday workout Story), scheduled through Buffer the evening before:
-- Monday 5:30am: workout of the week Story (slot DATE-wod), added 2026-10-24. Mondays only.
+Core strategy (unchanged): two feed posts and one Story every day. Extra weekly posts (added 2026-10-24) sit on top and never replace a core slot. All scheduled through Buffer the evening before.
+Core, every day:
 - 11:00am: coaching insight Reel (slot DATE-am). Changed from a carousel on 2026-10-24 after the first Reel test worked.
 - 4:00pm: relatable gym culture carousel, following the rotation below (slot DATE).
-- 6:30pm: Story (slot DATE-story), added 2026-10-24.
-The two feed posts on the same day must cover different topics.
+- 6:30pm: Story tied to the 4pm post (slot DATE-story).
+Extras:
+- Mon 5:30am: workout of the week Story (slot DATE-wod). Needs Chris's approval.
+- Mon 7:30am: workout walkthrough Reel (slot DATE-early). Goes with the workout; needs the same approval.
+- Tue, Thu, Sat 7:30am: movement of the week Reel (slot DATE-early).
+- Wed 8:00pm: "Rate this workout" Story (slot DATE-rate).
+All feed posts on the same day (11am Reel, 4pm carousel and any 7:30am Reel) must cover different topics.
 Updated 2026-10-15 after auditing 150 posts: relatable gym-culture carousels and Reels (Apr to Jul)
 had a median reach of about 1,280; long educational posts with site links (Sep to Oct) had about 220.
 
@@ -14,12 +19,12 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - Format: faceless text Reel from tools/reel.py, 15 to 25 seconds. Write the spec like a carousel spec but tighter: a hook of 2 short lines, 4 to 5 beats, titles under ~35 characters, bodies under ~70 characters, end card with a CTA. Render to posts/DATE-am/reel.mp4 and queue {"video": URL}.
 - The first second decides everything: the hook must be specific and land on the first frame.
 - End the caption with "Save this for your next session." then a permitted CTA.
-- Rotate themes across the week so no theme repeats within 7 days. The weekly series below are the exception.
+- Rotate themes across the week so no theme repeats within 7 days. Don't repeat the angle of that day's 7:30am Reel.
 
-### Weekly 11am series (added 2026-10-24)
-- Mon: "How to attack this week's workout". The Reel breaks down that morning's workout of the week: the stimulus, a pacing target, the most common mistake, how to scale. Label "This week's workout". Hook names the workout, e.g. "21-15-9 wall balls and row. Here's the plan."
-- Tue, Thu, Sat: Movement of the week. Pick one movement from Monday's workout (or a staple like the pull-up, wall ball, power clean, double-under) not used as movement of the week in the last 8 weeks. Tue: the setup. Thu: the most common mistake and its fix. Sat: the scaled version and when to use it. Label "Movement of the week".
-- Wed, Fri, Sun: normal rotating coaching insights (plateau causes, recovery mistakes, programming logic, energy systems).
+## Extra 7:30am Reels (slot DATE-early): Mon, Tue, Thu, Sat
+- Same Reel format and length as the 11am slot (tools/reel.py, 15 to 25 seconds, hook of 2 short lines, 4 to 5 beats), rendered to posts/DATE-early/reel.mp4, caption ops/captions/DATE-early.txt ending "Save this for your next session." then a permitted CTA.
+- Mon: "How to attack this week's workout". Breaks down that morning's workout of the week: the stimulus, a pacing target, the most common mistake, how to scale. Label "This week's workout". Hook names the workout, e.g. "21-15-9 wall balls and row. Here's the plan." Only posted if the workout is approved.
+- Tue, Thu, Sat: Movement of the week. Pick one movement from Monday's workout (or a staple like the pull-up, wall ball, power clean, double-under) not used as movement of the week in the last 8 weeks. Tue: the setup. Thu: the most common mistake and its fix. Sat: the scaled version and when to use it. Label "Movement of the week". If there was no approved workout that week, pick a staple.
 
 ## Monday 5:30am: workout of the week Story
 - One workout a week, Mondays only. Not daily: Chris's full programming stays in his product, so never post a week plan or a program, only this one session.
@@ -30,10 +35,9 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   - Metcon: common equipment only (barbell, dumbbells, kettlebells, rower, bike, pull-up bar, box, wall ball, skipping rope). Rx loads in kg as male/female (e.g. 43/30kg) plus one scaling line. No high-rep heavy Olympic lifts under fatigue, no high-skill gymnastics in large sets.
   - Alternate emphasis week to week (squat, hinge, press, pull, mixed) and the metcon format (for time, AMRAP, EMOM, intervals). Check the last 8 specs/*-wod.json so nothing repeats.
   - One "feel" line with the intended stimulus and a target time or score, one "Scale:" line, and "Reply with your time." (or "your score" / "your rounds").
-- Chris approves every workout before it is scheduled. The Sunday evening run renders and pushes the workout card AND the Monday 11am breakdown Reel, but queues neither. It also renders a backup Monday 11am Reel (a normal coaching insight, specs/DATE-am-backup.json, posts/DATE-am-backup/reel.mp4, caption in specs/DATE-am-backup.txt, kept out of ops/ until used). It sends Chris the workout card for approval and arms a send_later check-in into its own session for 10:00pm Melbourne.
-- When Chris approves (with any changes he asks for, re-rendering the card and Reel to match), queue ops/queue/DATE-wod.json and ops/queue/DATE-am.json with the breakdown Reel.
-- If there is no approval by the 10:00pm check-in, or Chris rejects it: queue the backup Reel as DATE-am (copy its caption to ops/captions/DATE-am.txt and point the queue at posts/DATE-am-backup/reel.mp4) and skip the workout Story that week. Never queue the workout without his explicit approval.
-- That Monday's 11am Reel breaks this workout down.
+- Chris approves every workout before it is scheduled. The Sunday evening run schedules the normal core slots for Monday as usual, renders and pushes the workout card and the 7:30am walkthrough Reel (caption kept in specs/DATE-early.txt until approved), but queues neither. It sends Chris the card for approval and arms a send_later check-in into its own session for 10:00pm Melbourne.
+- When Chris approves (with any changes he asks for, re-rendering the card and Reel to match), move the caption to ops/captions/DATE-early.txt and queue ops/queue/DATE-wod.json and ops/queue/DATE-early.json together.
+- If there is no approval by the 10:00pm check-in, or Chris rejects it: queue neither and tell him. The core Monday posts are unaffected. Never queue the workout without his explicit approval.
 
 ## 4pm slot: weekly rotation (by the weekday the post goes OUT)
 - Mon: Relatable gym culture carousel ("that person in class", coach's-eye humour).
@@ -49,7 +53,10 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - One 1080x1920 card from tools/story.py, queued as ops/queue/DATE-story.json ({"images": [URL]}) with NO caption file.
 - Buffer auto-publishes Stories only without stickers, polls, links, music or captions, so the card itself asks for a DM reply: a quick question tied to that day's 4pm post with 2 to 4 lettered options and "Reply with A, B or C." DM replies are the engagement signal we want.
 - Same brand rules. Keep it light and quick to answer. No motivational quotes.
-- Wednesday exception: "Rate this workout". Instead of tying to the 4pm post, show a deliberately absurd or famously awful workout (e.g. "100 burpees. Then 100 more. For time.") with kicker "Rate this workout" and options like "A. Love it", "B. Hate it", "C. Coach is unwell". Affectionate humour, never a workout anyone should actually attempt as written.
+
+## Wednesday 8:00pm: "Rate this workout" Story (slot DATE-rate)
+- Extra Story on top of the normal 6:30pm one. Card from tools/story.py to posts/DATE-rate/01.png, queued as ops/queue/DATE-rate.json ({"images": [URL]}), NO caption file.
+- Show a deliberately absurd or famously awful workout (e.g. "100 burpees. Then 100 more. For time.") with kicker "Rate this workout" and options like "A. Love it", "B. Hate it", "C. Coach is unwell", then "Reply with A, B or C." Affectionate humour, never a workout anyone should actually attempt as written.
 
 ## What works (from the audit)
 - Carousels of 5 to 8 slides beat single images. Default to carousels (tools/carousel.py).
