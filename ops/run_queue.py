@@ -2,7 +2,7 @@
 """Schedule every queued post that is not in posted.log yet. Run by the schedule-post Action.
 
 A queued post is queue/SLOT.json plus captions/SLOT.txt, where SLOT is YYYY-MM-DD (4pm post)
-or YYYY-MM-DD-am (11am post), YYYY-MM-DD-story (6:30pm Story, queue file only, no caption), or YYYY-MM-DD-reel (extra Reel; needs "due": "HH:MM"):
+or YYYY-MM-DD-am (11am post), YYYY-MM-DD-story (6:30pm Story, queue file only, no caption), YYYY-MM-DD-wod (Monday 5:30am workout Story, same as -story), or YYYY-MM-DD-reel (extra Reel; needs "due": "HH:MM"):
   {"images": ["https://raw.githubusercontent.com/.../01.png", ...], "proof": false}
 or, for a Reel:
   {"video": "https://raw.githubusercontent.com/.../reel.mp4"}
@@ -17,7 +17,7 @@ logged = {l.split("\t")[0] for l in open(os.path.join(HERE, "posted.log")) if l.
 failed = 0
 for path in sorted(glob.glob(os.path.join(HERE, "queue", "*.json"))):
     slot = os.path.basename(path)[:-5]
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-am|-reel|-story)?", slot) or slot in logged or slot[:10] < today:
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-am|-reel|-story|-wod)?", slot) or slot in logged or slot[:10] < today:
         continue
     spec = json.load(open(path))
     images = [spec["video"]] if spec.get("video") else spec["images"]
@@ -32,7 +32,7 @@ for path in sorted(glob.glob(os.path.join(HERE, "queue", "*.json"))):
         cmd.append(f"--due={spec['due']}")
     if "--dry-run" in sys.argv:
         cmd.append("--dry-run")
-    kind = "a Story" if slot.endswith("-story") else "a Reel" if spec.get("video") else f"{len(images)} image(s)"
+    kind = "a Story" if slot.endswith(("-story", "-wod")) else "a Reel" if spec.get("video") else f"{len(images)} image(s)"
     print(f"== {slot}: scheduling {kind}", flush=True)
     if subprocess.run(cmd, cwd=HERE).returncode:
         failed += 1

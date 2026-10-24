@@ -4,7 +4,7 @@ Image hosting for @coach_chris_kenko Instagram posts
 ## Scheduling (ops/)
 Everything runs on GitHub, no Mac needed.
 - ops/PLAYBOOK.md: pillars, rotation, brand rules (source of truth)
-- Each day: slot `DATE-am` (11am Reel), slot `DATE` (4pm carousel), slot `DATE-story` (6:30pm Story, queue file only, no caption). Melbourne time.
+- Each day: slot `DATE-am` (11am Reel), slot `DATE` (4pm carousel), slot `DATE-story` (6:30pm Story, queue file only, no caption). Mondays also get slot `DATE-wod` (5:30am workout of the week Story from tools/workout.py, no caption). Melbourne time.
 - To schedule a post, push `ops/captions/SLOT.txt` and `ops/queue/SLOT.json`
   (`{"images": [slide URLs in order], "proof": false}`, or `{"video": "...mp4 URL"}` for a Reel) to main. The schedule-post Action runs
   ops/post_to_buffer.py with the BUFFER_KEY secret and appends the Buffer post id to ops/posted.log.
