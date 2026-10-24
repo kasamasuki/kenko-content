@@ -2,7 +2,7 @@
 """Schedule every queued post that is not in posted.log yet. Run by the schedule-post Action.
 
 A queued post is queue/SLOT.json plus captions/SLOT.txt, where SLOT is YYYY-MM-DD (4pm post)
-or YYYY-MM-DD-am (11am post):
+or YYYY-MM-DD-am (11am post), or YYYY-MM-DD-reel (extra Reel; needs "due": "HH:MM"):
   {"images": ["https://raw.githubusercontent.com/.../01.png", ...], "proof": false}
 or, for a Reel:
   {"video": "https://raw.githubusercontent.com/.../reel.mp4"}
@@ -17,7 +17,7 @@ logged = {l.split("\t")[0] for l in open(os.path.join(HERE, "posted.log")) if l.
 failed = 0
 for path in sorted(glob.glob(os.path.join(HERE, "queue", "*.json"))):
     slot = os.path.basename(path)[:-5]
-    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-am)?", slot) or slot in logged or slot[:10] < today:
+    if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-am|-reel)?", slot) or slot in logged or slot[:10] < today:
         continue
     spec = json.load(open(path))
     images = [spec["video"]] if spec.get("video") else spec["images"]
@@ -28,6 +28,8 @@ for path in sorted(glob.glob(os.path.join(HERE, "queue", "*.json"))):
     cmd = [sys.executable, os.path.join(HERE, "post_to_buffer.py"), slot, f"captions/{slot}.txt", *images]
     if spec.get("proof"):
         cmd.append("--proof")
+    if spec.get("due"):
+        cmd.append(f"--due={spec['due']}")
     if "--dry-run" in sys.argv:
         cmd.append("--dry-run")
     print(f"== {slot}: scheduling {'a Reel' if spec.get('video') else f'{len(images)} image(s)'}", flush=True)

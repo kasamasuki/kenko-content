@@ -3,6 +3,7 @@
 Usage: post_to_buffer.py SLOT captions/SLOT.txt IMAGE_URL [IMAGE_URL ...] [--proof] [--dry-run]
        post_to_buffer.py SLOT captions/SLOT.txt VIDEO_URL.mp4 [--dry-run]   (Reel, also shared to feed)
 SLOT is YYYY-MM-DD for the 4pm post or YYYY-MM-DD-am for the 11am post (Melbourne time).
+An extra one-off Reel uses YYYY-MM-DD-reel and needs --due=HH:MM (Melbourne); --due overrides any slot's time.
 Pass slide URLs in order for a carousel (max 10). --proof allows a kenkoperformance.com mention.
 Reads the API key from the BUFFER_KEY environment variable (a GitHub Actions secret),
 falling back to buffer_key.txt next to this script. Logs to posted.log
@@ -19,9 +20,13 @@ THUMB_MS = 1500   # Reel cover frame: the hook is fully on screen by 1.5s
 args = [a for a in sys.argv[1:] if not a.startswith("--")]
 slot, caption_path, images = args[0], args[1], args[2:]
 date = slot[:10]
-post_hour = POST_HOURS["am" if slot.endswith("-am") else "pm"]
-if slot not in (date, date + "-am"):
-    sys.exit("SLOT must be YYYY-MM-DD or YYYY-MM-DD-am.")
+if slot not in (date, date + "-am", date + "-reel"):
+    sys.exit("SLOT must be YYYY-MM-DD, YYYY-MM-DD-am or YYYY-MM-DD-reel.")
+due_arg = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--due=")), None)
+if slot.endswith("-reel") and not due_arg:
+    sys.exit("A -reel slot needs --due=HH:MM (Melbourne time).")
+post_hour, post_min = (map(int, due_arg.split(":")) if due_arg
+                       else (POST_HOURS["am" if slot.endswith("-am") else "pm"], 0))
 dry, proof = "--dry-run" in sys.argv, "--proof" in sys.argv
 is_reel = any(u.lower().endswith(".mp4") for u in images)
 if is_reel and len(images) != 1:
@@ -46,7 +51,9 @@ if len(caption.splitlines()[0].split()) > 10:
 if any(ord(c) > 0x2600 for c in caption):
     sys.exit("Caption breaks brand rules: contains an emoji or symbol.")
 
-local = datetime.datetime.fromisoformat(date).replace(hour=post_hour, tzinfo=ZoneInfo("Australia/Melbourne"))
+local = datetime.datetime.fromisoformat(date).replace(hour=post_hour, minute=post_min, tzinfo=ZoneInfo("Australia/Melbourne"))
+if local < datetime.datetime.now(datetime.timezone.utc):
+    sys.exit(f"Due time {local:%Y-%m-%d %H:%M} Melbourne is already past.")
 due = local.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
 query = """mutation($input: CreatePostInput!) { createPost(input: $input) {
