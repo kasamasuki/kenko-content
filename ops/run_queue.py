@@ -4,6 +4,9 @@
 A queued post is queue/SLOT.json plus captions/SLOT.txt, where SLOT is YYYY-MM-DD (4pm post)
 or YYYY-MM-DD-am (11am post):
   {"images": ["https://raw.githubusercontent.com/.../01.png", ...], "proof": false}
+or, for a Reel:
+  {"video": "https://raw.githubusercontent.com/.../reel.mp4"}
+Pass --dry-run to print what would be sent without calling Buffer.
 Past dates are skipped. Exits non-zero if any post fails, so the Action goes red."""
 import datetime, glob, json, os, re, subprocess, sys
 from zoneinfo import ZoneInfo
@@ -17,13 +20,17 @@ for path in sorted(glob.glob(os.path.join(HERE, "queue", "*.json"))):
     if not re.fullmatch(r"\d{4}-\d{2}-\d{2}(-am)?", slot) or slot in logged or slot[:10] < today:
         continue
     spec = json.load(open(path))
-    images = spec["images"]
+    images = [spec["video"]] if spec.get("video") else spec["images"]
+    if spec.get("video") and (spec.get("images") or not spec["video"].lower().endswith(".mp4")):
+        print(f"{slot}: a Reel needs one .mp4 under \"video\" and no images"); failed += 1; continue
     if not all(isinstance(u, str) and u.startswith("https://raw.githubusercontent.com/kasamasuki/kenko-content/") for u in images):
         print(f"{slot}: image URLs must be raw.githubusercontent.com/kasamasuki/kenko-content URLs"); failed += 1; continue
     cmd = [sys.executable, os.path.join(HERE, "post_to_buffer.py"), slot, f"captions/{slot}.txt", *images]
     if spec.get("proof"):
         cmd.append("--proof")
-    print(f"== {slot}: scheduling {len(images)} image(s)", flush=True)
+    if "--dry-run" in sys.argv:
+        cmd.append("--dry-run")
+    print(f"== {slot}: scheduling {'a Reel' if spec.get('video') else f'{len(images)} image(s)'}", flush=True)
     if subprocess.run(cmd, cwd=HERE).returncode:
         failed += 1
 sys.exit(1 if failed else 0)
