@@ -30,7 +30,8 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   - Metcon: common equipment only (barbell, dumbbells, kettlebells, rower, bike, pull-up bar, box, wall ball, skipping rope). Rx loads in kg as male/female (e.g. 43/30kg) plus one scaling line. No high-rep heavy Olympic lifts under fatigue, no high-skill gymnastics in large sets.
   - Alternate emphasis week to week (squat, hinge, press, pull, mixed) and the metcon format (for time, AMRAP, EMOM, intervals). Check the last 8 specs/*-wod.json so nothing repeats.
   - One "feel" line with the intended stimulus and a target time or score, one "Scale:" line, and "Reply with your time." (or "your score" / "your rounds").
-- That Monday's 11am Reel breaks this workout down. The Monday 4pm carousel and 6:30pm Story stay on the normal rotation.
+- Chris approves every workout before it is scheduled. The Sunday evening run renders and pushes the card but does NOT queue ops/queue/DATE-wod.json. It sends Chris the card for approval, and the workout is queued only after he replies in that run's session approving it (with any changes he asks for). No approval by 5:00am Monday means no workout Story that week. Never queue it without his explicit approval.
+- That Monday's 11am Reel breaks this workout down. If the workout is changed at approval, re-render the Reel to match before it goes out. If the workout is not approved, the 11am Reel is still scheduled (it only describes the workout), so keep it general enough to stand alone, or swap it for a normal coaching insight if Chris rejects the workout. The Monday 4pm carousel and 6:30pm Story stay on the normal rotation.
 
 ## 4pm slot: weekly rotation (by the weekday the post goes OUT)
 - Mon: Relatable gym culture carousel ("that person in class", coach's-eye humour).
