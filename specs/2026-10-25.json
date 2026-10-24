@@ -1,0 +1,13 @@
+{
+  "label": "Sunday open gym",
+  "cover": ["Sunday open gym.", "Everyone's here", "for a reason."],
+  "slides": [
+    {"tag": "Is this you?", "title": "The spreadsheet.", "body": "Fourteen tabs, colour coded. Week 6, day 3. Will not share a rack. Will not explain."},
+    {"tag": "Is this you?", "title": "Just here to stretch.", "body": "Rolls out for five minutes. Then a 40 minute session nobody programmed."},
+    {"tag": "Is this you?", "title": "The catch-up.", "body": "Missed Thursday, so it's Thursday, Friday and Saturday. Back to back. Wish them luck."},
+    {"tag": "Is this you?", "title": "The social member.", "body": "Here two hours. Trained for twenty minutes. Knows everyone's weekend plans."},
+    {"tag": "Is this you?", "title": "The skill sesh.", "body": "Forty minutes of handstand attempts. Same wall. Slightly closer every week."},
+    {"tag": "Is this you?", "title": "The coach on their day off.", "body": "Came to train. Ended up fixing four squats and mopping the floor."}
+  ],
+  "end": ["Tag the one who comes", "just to stretch."]
+}

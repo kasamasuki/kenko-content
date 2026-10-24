@@ -1,0 +1,12 @@
+{
+  "label": "Plateau causes",
+  "cover": ["Same weights every week?", "That's your plateau."],
+  "slides": [
+    {"tag": "The mistake", "title": "Same dumbbells since March.", "body": "Same weight, same reps. Comfortable isn't progress."},
+    {"tag": "The why", "title": "You adapt in weeks.", "body": "Once a load stops being hard, it stops asking for change."},
+    {"tag": "The fix", "title": "One rep or 2.5kg more.", "body": "Small jumps, every week. Boring wins."},
+    {"tag": "The tool", "title": "Write every set down.", "body": "You can't beat last week if you don't know it."},
+    {"tag": "The tell", "title": "Last rep looked easy?", "body": "Then it was. Go up next session."}
+  ],
+  "end": ["Send it to the one", "still on the same 12s."]
+}

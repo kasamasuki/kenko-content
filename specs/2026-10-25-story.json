@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Sunday open gym.", "What are you", "really there for?"],
+  "options": ["A. My program, all of it", "B. Just a stretch, allegedly", "C. The chat, mostly"],
+  "ask": "Reply with A, B or C."
+}
