@@ -1,0 +1,11 @@
+{
+  "label": "Energy systems",
+  "cover": ["Your easy cardio", "is too hard."],
+  "slides": [
+    {"tag": "The mistake", "title": "Every row turns into a race.", "body": "Easy days drift hard. Hard days end up not hard enough."},
+    {"tag": "The why", "title": "Easy builds the engine.", "body": "Low intensity grows your aerobic base. Only if it's easy."},
+    {"tag": "The test", "title": "Talk in full sentences.", "body": "Can't? Slow down. Breathing through your nose is a good check."},
+    {"tag": "The payoff", "title": "Then go hard on hard days.", "body": "Fresh legs make intervals hurt the way they should."}
+  ],
+  "end": ["Send it to the one", "who races the warm-up row."]
+}

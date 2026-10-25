@@ -1,0 +1,13 @@
+{
+  "kicker": "Workout of the week",
+  "title": "Press and pull.",
+  "parts": [
+    {"name": "Strength", "detail": "Strict press",
+     "lines": ["5 x 5 @ 70 to 75%", "Rest 2 min"]},
+    {"name": "Metcon", "detail": "AMRAP 14 min",
+     "lines": ["12/9 cal row", "10 DB push press 22.5/15kg", "8 pull-ups"]}
+  ],
+  "feel": "Steady, repeatable rounds. Aim for 6 to 8.",
+  "scale": "Scale: ring rows, lighter dumbbells, 10/7 cal.",
+  "ask": "Reply with your rounds."
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Gym culture",
+  "cover": ["Coaches watch", "you read the", "whiteboard."],
+  "slides": [
+    {"tag": "Is this you?", "title": "The calculator.", "body": "Already knows the total rep count. Before the warm-up has started."},
+    {"tag": "Is this you?", "title": "The photographer.", "body": "Takes a photo of the board every day. Has never once looked at it again."},
+    {"tag": "Is this you?", "title": "The negotiator.", "body": "Sees burpees. Asks if they're optional today. They are not."},
+    {"tag": "Is this you?", "title": "The rereader.", "body": "Reads it four times, hoping the numbers change. They don't."},
+    {"tag": "Is this you?", "title": "The quiet exit.", "body": "Reads the board. Says nothing. Walks to the water fountain and thinks about life."},
+    {"tag": "Is this you?", "title": "The one who loves it.", "body": "Sees thrusters and smiles. Everyone moves one spot further away."}
+  ],
+  "end": ["Tag the one who", "photographs the board."]
+}

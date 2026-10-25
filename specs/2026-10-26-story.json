@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["The whiteboard", "goes up. What's", "your first move?"],
+  "options": ["A. Count the total reps", "B. Take a photo", "C. Find the water fountain"],
+  "ask": "Reply with A, B or C."
+}

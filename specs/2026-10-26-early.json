@@ -1,0 +1,11 @@
+{
+  "label": "This week's workout",
+  "cover": ["Row, press, pull-ups.", "14 minutes. The plan."],
+  "slides": [
+    {"tag": "The stimulus", "title": "Steady, not a sprint.", "body": "Strict press first. Then 14 minutes you can hold."},
+    {"tag": "The target", "title": "6 to 8 rounds.", "body": "About two minutes a round. Same split every round."},
+    {"tag": "The mistake", "title": "Pull-ups to failure early.", "body": "Break them 4 and 4 from round one, before you have to."},
+    {"tag": "The scale", "title": "Ring rows, lighter bells.", "body": "Keep moving. Fewer reps beat long stalls at the bar."}
+  ],
+  "end": ["Reply to the Story", "with your rounds."]
+}
