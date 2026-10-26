@@ -1,0 +1,11 @@
+{
+  "label": "Warm-ups",
+  "cover": ["Your warm-up should", "look like the workout."],
+  "slides": [
+    {"tag": "The mistake", "title": "Jog, stretch, go.", "body": "A generic warm-up preps you for nothing in particular."},
+    {"tag": "The fix", "title": "Rehearse today's movements.", "body": "Squats on the board? Squat in the warm-up. Light and smooth."},
+    {"tag": "The ramp", "title": "Build to your working weight.", "body": "Three or four sets, fewer reps each, same bar path every time."},
+    {"tag": "The primer", "title": "Taste the pace once.", "body": "Thirty seconds at workout pace. Then rest before 3, 2, 1."}
+  ],
+  "end": ["Send it to the one who", "warms up with one lap."]
+}

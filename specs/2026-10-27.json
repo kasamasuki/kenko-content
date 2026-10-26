@@ -1,0 +1,44 @@
+{
+  "label": "Gym culture",
+  "cover": [
+    "Lying on",
+    "the floor isn't",
+    "a cooldown."
+  ],
+  "slides": [
+    {
+      "tag": "Is this you?",
+      "title": "The starfish.",
+      "body": "Flat out before the timer beeps. A slow walk would clear the legs faster. Still flat."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The sweat angel.",
+      "body": "Leaves a full body outline on the floor. Photographs it. Proud of it."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The recount.",
+      "body": "Swears that was nine rounds. Asks their partner. Their partner says seven."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The analyst.",
+      "body": "Heart rate graph, splits, calories. Shows it to someone who did not ask."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The vanishing act.",
+      "body": "Bag zipped, keys out, gone before the coach says cooldown."
+    },
+    {
+      "tag": "Is this you?",
+      "title": "The cleaner.",
+      "body": "Wipes down their gear. Then yours. Then the rower nobody used."
+    }
+  ],
+  "end": [
+    "Tag the one still",
+    "on the floor."
+  ]
+}

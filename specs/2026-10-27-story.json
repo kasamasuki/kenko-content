@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["The timer beeps.", "Where do you", "end up?"],
+  "options": ["A. Flat on the floor", "B. Recounting my rounds", "C. Already in the car", "D. Wiping down the rower"],
+  "ask": "Reply with A, B, C or D."
+}
