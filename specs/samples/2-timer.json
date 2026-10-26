@@ -1,0 +1,8 @@
+{"format": "timer", "label": "Workout moments", "hook": ["20 minute AMRAP.", "Minute by minute."],
+ "steps": [{"clock": "0:00", "text": "Smooth. Controlled. Easy."},
+           {"clock": "3:00", "text": "Feeling good actually."},
+           {"clock": "7:00", "text": "Why is the clock so slow."},
+           {"clock": "11:00", "text": "Who wrote this."},
+           {"clock": "15:00", "text": "Negotiating with the rower."},
+           {"clock": "19:00", "text": "Sprint. Obviously."}],
+ "step_dur": 1.5, "end": ["Tag the one who", "sprints at 19:00."]}

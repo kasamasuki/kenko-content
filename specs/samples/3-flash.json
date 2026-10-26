@@ -1,0 +1,4 @@
+{"format": "flash", "label": "Gym habits", "hook": ["Pause on a random frame.", "That's your gym habit."],
+ "items": ["Counts generously.", "Photographs the board.", "Chalks for three minutes.", "Starts on two.",
+           "Lies flat after.", "Recounts every round.", "Skips the cooldown.", "Asks if burpees are optional."],
+ "item_dur": 0.6, "end": ["Tag a training partner.", "Tell them what you got."]}
