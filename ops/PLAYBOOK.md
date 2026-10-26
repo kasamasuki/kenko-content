@@ -2,29 +2,40 @@
 
 Core strategy (unchanged): two feed posts and one Story every day. Extra weekly posts (added 2026-10-24) sit on top and never replace a core slot. All scheduled through Buffer the evening before.
 Core, every day:
-- 11:00am: coaching insight Reel (slot DATE-am). Changed from a carousel on 2026-10-24 after the first Reel test worked.
+- 11:00am: coaching insight carousel (slot DATE-am). Back to a carousel from 2026-10-28: the text Reels asked viewers to read too much and they dropped off after two beats. Coaching content needs swipe-at-your-own-pace.
 - 4:00pm: relatable gym culture carousel, following the rotation below (slot DATE).
 - 6:30pm: Story tied to the 4pm post (slot DATE-story).
 Extras:
 - Mon 5:30am: workout of the week Story (slot DATE-wod). Needs Chris's approval.
-- Mon 7:30am: workout walkthrough Reel (slot DATE-early). Goes with the workout; needs the same approval.
-- Tue, Thu, Sat 7:30am: movement of the week Reel (slot DATE-early).
+- Mon 7:30am: workout walkthrough Reel, timer format (slot DATE-early). Goes with the workout; needs the same approval.
+- Tue, Thu, Sat 7:30am: short punchy Reel (slot DATE-early).
 - Wed 8:00pm: "Rate this workout" Story (slot DATE-rate).
-All feed posts on the same day (11am Reel, 4pm carousel and any 7:30am Reel) must cover different topics.
+All feed posts on the same day (11am carousel, 4pm carousel and any 7:30am Reel) must cover different topics.
 Updated 2026-10-15 after auditing 150 posts: relatable gym-culture carousels and Reels (Apr to Jul)
 had a median reach of about 1,280; long educational posts with site links (Sep to Oct) had about 220.
 
-## 11am slot: coaching insight Reel, every day
-- One sharp coach-level observation per Reel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems). One idea per beat, no lecture.
-- Format: faceless text Reel from tools/reel.py, 15 to 25 seconds. Write the spec like a carousel spec but tighter: a hook of 2 short lines, 4 to 5 beats, titles under ~35 characters, bodies under ~70 characters, end card with a CTA. Render to posts/DATE-am/reel.mp4 and queue {"video": URL}.
-- The first second decides everything: the hook must be specific and land on the first frame.
+## 11am slot: coaching insight carousel, every day
+- One sharp coach-level observation per carousel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems, warm-ups, pacing, scaling). One idea per slide, no lecture.
+- Format: tools/carousel.py, 5 to 7 slides: cover hook, 3 to 5 content slides (tag, title under ~40 characters, body under ~120), end slide with a CTA. Render to posts/DATE-am/ and queue {"images": [slide URLs in order], "proof": false}.
+- The hook must be specific and land on the cover.
 - End the caption with "Save this for your next session." then a permitted CTA.
-- Rotate themes across the week so no theme repeats within 7 days. Don't repeat the angle of that day's 7:30am Reel.
+- Rotate themes across the week so no theme repeats within 7 days. Don't repeat the topic of that day's 7:30am Reel or 4pm carousel.
+
+## Reels: short and punchy (from 2026-10-28)
+- Every Reel uses tools/punchy_reel.py (read its docstring). Rule: 2 to 6 words on screen at a time, nothing the viewer has to pause to read. 5 to 15 seconds (hard limit 25). The first scene (hook) holds at least 2 seconds so the Buffer cover frame at 1.5s shows it.
+- Five formats:
+  1. oneliner: setup, then punchline, no end card so it loops. 5 to 7 seconds. Best home for a provocative hook.
+  2. timer: a big clock with one short thought per step (a workout told minute by minute).
+  3. flash: "Pause on a random frame" / "Screenshot" list of 6 to 10 types or habits, 0.6s each.
+  4. counter: a number ticks to each value (splits, reps, rounds, kilos), then one coaching punchline.
+  5. versus: this or that, 4 to 6 pairs.
+- Never the same format in two Reels in a row, and use at least three different formats each week. Hooks and topics follow the same rules as feed posts (different topic from that day's 11am and 4pm posts).
+- Old long-beat text Reels (tools/reel.py) are retired. Don't use them.
 
 ## Extra 7:30am Reels (slot DATE-early): Mon, Tue, Thu, Sat
-- Same Reel format and length as the 11am slot (tools/reel.py, 15 to 25 seconds, hook of 2 short lines, 4 to 5 beats), rendered to posts/DATE-early/reel.mp4, caption ops/captions/DATE-early.txt ending "Save this for your next session." then a permitted CTA.
-- Mon: "How to attack this week's workout". Breaks down that morning's workout of the week: the stimulus, a pacing target, the most common mistake, how to scale. Label "This week's workout". Hook names the workout, e.g. "21-15-9 wall balls and row. Here's the plan." Only posted if the workout is approved.
-- Tue, Thu, Sat: Movement of the week. Pick one movement from Monday's workout (or a staple like the pull-up, wall ball, power clean, double-under) not used as movement of the week in the last 8 weeks. Tue: the setup. Thu: the most common mistake and its fix. Sat: the scaled version and when to use it. Label "Movement of the week". If there was no approved workout that week, pick a staple.
+- Rendered to posts/DATE-early/reel.mp4 with tools/punchy_reel.py, caption ops/captions/DATE-early.txt. Caption: hook, at most 2 short lines, then a permitted CTA ("Save this for your next session." only when the Reel teaches something).
+- Mon: "This week's workout" in the timer format: the workout of the week told as a pacing plan, minute by minute (e.g. "0:00 Steady. Not a sprint." "6:00 Break the pull-ups early." "13:00 Now go."). Label "This week's workout". Hook names the workout. Only posted if the workout is approved.
+- Tue, Thu, Sat: a punchy Reel in any format except timer (Mon owns it), rotating so no format repeats that week. Mix gym-culture humour (oneliner, flash, versus) with at least one coaching Reel a week (counter, or a oneliner with a real coaching point). Movement-of-the-week teaching (setup, common mistake, scaled version) moves to the 11am carousel as a theme when wanted.
 
 ## Monday 5:30am: workout of the week Story
 - One workout a week, Mondays only. Not daily: Chris's full programming stays in his product, so never post a week plan or a program, only this one session.
@@ -92,7 +103,7 @@ The hook is the first line of the caption AND the first slide or Reel frame. It 
 
 ## Look
 - 1080x1350 slides, #0a0a0a background, white text, #00FF87 accent, Inter.
-- Carousels: tools/carousel.py. Reels: tools/reel.py (1080x1920 MP4). Stories: tools/story.py (1080x1920 PNG). Workout card: tools/workout.py (1080x1920 PNG). Single cards: tools/render.py.
+- Carousels: tools/carousel.py. Reels: tools/punchy_reel.py (1080x1920 MP4). Stories: tools/story.py (1080x1920 PNG). Workout card: tools/workout.py (1080x1920 PNG). Single cards: tools/render.py.
 
 ## Files (all under ops/ in kasamasuki/kenko-content; this repo is public, so nothing secret goes here)
 - captions/YYYY-MM-DD.txt  caption for each post (read these to avoid repeating topics)
