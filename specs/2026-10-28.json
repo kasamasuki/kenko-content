@@ -1,0 +1,45 @@
+{
+  "label": "A light day story",
+  "cover": [
+    "Light day,",
+    "you said.",
+    "Then someone",
+    "loaded 100kg."
+  ],
+  "slides": [
+    {
+      "tag": "6:00pm",
+      "title": "Light day. You said it out loud.",
+      "body": "To your partner, the coach and the car on the way in. Witnesses everywhere."
+    },
+    {
+      "tag": "6:12pm",
+      "title": "The next rack loads 100kg.",
+      "body": "You weren't going to look. You looked. You did some quick maths."
+    },
+    {
+      "tag": "6:20pm",
+      "title": "\"Just one more plate.\"",
+      "body": "For feel. Nothing serious. You're only checking the bar path."
+    },
+    {
+      "tag": "6:31pm",
+      "title": "Coach walks past. Slowly.",
+      "body": "Says nothing. Writes nothing down. Somehow that's worse."
+    },
+    {
+      "tag": "6:40pm",
+      "title": "Your partner films the last set.",
+      "body": "You tell them not to. You watch the video four times in the car."
+    },
+    {
+      "tag": "Next morning",
+      "title": "The stairs have opinions.",
+      "body": "Tomorrow is a light day. You mean it this time. Probably."
+    }
+  ],
+  "end": [
+    "Tag the one who",
+    "never goes light."
+  ]
+}

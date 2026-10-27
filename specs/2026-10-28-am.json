@@ -1,0 +1,38 @@
+{
+  "label": "Recovery",
+  "cover": [
+    "No supplement beats",
+    "a 10pm bedtime."
+  ],
+  "slides": [
+    {
+      "tag": "The mistake",
+      "title": "Fixing recovery with gadgets.",
+      "body": "Rollers, ice baths and powders help a little. None of them repays a short night."
+    },
+    {
+      "tag": "Under 7 hours",
+      "title": "Your training pays the bill.",
+      "body": "Slower recovery, less power, and the same weights feel heavier."
+    },
+    {
+      "tag": "The fix",
+      "title": "Same bedtime, every night.",
+      "body": "Pick a time that gives you 7 to 9 hours before the alarm. Weekends included."
+    },
+    {
+      "tag": "The wind-down",
+      "title": "Dim the lights, park the phone.",
+      "body": "Thirty minutes of nothing bright before bed. Keep the room cool and dark."
+    },
+    {
+      "tag": "5am class",
+      "title": "Early alarm? Earlier night.",
+      "body": "A 4:45 alarm means lights out by 9:30. Count back from the alarm."
+    }
+  ],
+  "end": [
+    "Tag the one who",
+    "trains on five hours."
+  ]
+}

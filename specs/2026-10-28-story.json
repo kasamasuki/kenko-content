@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Light day.", "How long does", "it last?"],
+  "options": ["A. The whole session", "B. Until the warm-up", "C. Until the next rack loads up", "D. What's a light day?"],
+  "ask": "Reply with A, B, C or D."
+}
