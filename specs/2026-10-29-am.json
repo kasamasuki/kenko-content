@@ -1,0 +1,12 @@
+{
+  "label": "Scaling",
+  "cover": ["A 7 minute workout", "shouldn't take", "you 20."],
+  "slides": [
+    {"tag": "The intent", "title": "Every workout has a job.", "body": "A short one is meant to be fast and spicy. A long one is meant to be steady. The time is the point."},
+    {"tag": "The mistake", "title": "Rx at any cost.", "body": "Board weight, triple the time. You did a different workout, just with the right numbers."},
+    {"tag": "The fix", "title": "Scale to hit the time.", "body": "Ask your coach for the target time. Pick the load and reps that land you inside it."},
+    {"tag": "The test", "title": "Is round one unbroken?", "body": "On a short workout, if round one already needs breaks, it's too heavy for today."},
+    {"tag": "Moving up", "title": "Earn the Rx. Don't borrow it.", "body": "Hit the target time scaled, then add load or reps next time. Progress you can actually see."}
+  ],
+  "end": ["Tag the one who", "Rx's everything."]
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Which slide is you?",
+  "cover": ["60 seconds left.", "Which one", "are you?"],
+  "slides": [
+    {"tag": "Is this you?", "title": "The late bloomer.", "body": "Silent for 19 minutes. Suddenly sprinting like there's prize money."},
+    {"tag": "Is this you?", "title": "The clock watcher.", "body": "Checks the clock after every rep. It has moved four seconds."},
+    {"tag": "Is this you?", "title": "The mathematician.", "body": "Working out if three more reps beats their score from March. Mid-rep."},
+    {"tag": "Is this you?", "title": "The early finisher.", "body": "Puts the bar down at 0:08, just to be safe. Starts tidying the plates."},
+    {"tag": "Is this you?", "title": "The buzzer beater.", "body": "Starts a rep at 0:01. Insists it counts. Has a witness."},
+    {"tag": "Is this you?", "title": "The hype crew.", "body": "Finished already. Now screaming your name from two metres away."}
+  ],
+  "end": ["Tag the one who", "starts a rep at 0:01."]
+}

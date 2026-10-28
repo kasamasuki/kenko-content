@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["60 seconds left.", "What do", "you do?"],
+  "options": ["A. Sprint like I planned it", "B. Stare at the clock", "C. Count my score mid-rep", "D. Start a rep at 0:01"],
+  "ask": "Reply with A, B, C or D."
+}
