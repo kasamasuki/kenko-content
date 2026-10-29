@@ -1,0 +1,12 @@
+{
+  "label": "Pacing",
+  "cover": ["Unbroken in round one.", "Singles by", "round three."],
+  "slides": [
+    {"tag": "The trap", "title": "Failure costs more than fatigue.", "body": "Go to failure on set one and you need 40 seconds back. A planned break needs five."},
+    {"tag": "The fix", "title": "Break early. Break short.", "body": "30 wall balls? Try 12, 10, 8 with three breaths between. Decide before the clock starts."},
+    {"tag": "The rule", "title": "Count breaths, not seconds.", "body": "Three breaths, then pick it up. If you are checking the clock, the rest is too long."},
+    {"tag": "Watch for", "title": "Grip goes first.", "body": "Pull-ups and toes-to-bar fall apart fastest. Break while your sets are still big."},
+    {"tag": "The payoff", "title": "Last round, go unbroken.", "body": "Planned breaks early buy you a fast finish. That is where the time comes back."}
+  ],
+  "end": ["Tag the one who goes", "unbroken in round one."]
+}

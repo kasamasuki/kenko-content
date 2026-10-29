@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["The gym group chat.", "Which one", "are you?"],
+  "options": ["A. \"Anyone going 6am?\" at 5:52", "B. Says yes, doesn't show", "C. Posts the PR video", "D. Muted, never misses"],
+  "ask": "Reply with A, B, C or D."
+}

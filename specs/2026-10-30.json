@@ -1,0 +1,13 @@
+{
+  "label": "Gym culture",
+  "cover": ["Every gym", "group chat has", "these messages."],
+  "slides": [
+    {"tag": "Sound familiar?", "title": "\"Anyone going 6am?\"", "body": "Sent at 5:52am. From the car park."},
+    {"tag": "Sound familiar?", "title": "\"Who's in Saturday?\"", "body": "Forty replies. Four people turn up. The same four as always."},
+    {"tag": "Sound familiar?", "title": "The PR video.", "body": "Forty seconds long. The lift is the last two. Everyone replies \"beast\" anyway."},
+    {"tag": "Sound familiar?", "title": "\"Is it scaled?\"", "body": "Asked about a workout nobody has seen yet. Coach is typing."},
+    {"tag": "Sound familiar?", "title": "\"Who left their shoes?\"", "body": "Photo attached. Nobody claims them. They are still there."},
+    {"tag": "Sound familiar?", "title": "The silent one.", "body": "Chat muted since 2024. Never misses a class."}
+  ],
+  "end": ["Tag the one who sends", "\"anyone going 6am?\""]
+}
