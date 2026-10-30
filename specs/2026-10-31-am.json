@@ -1,0 +1,12 @@
+{
+  "label": "Rowing",
+  "cover": ["Legs, body, arms.", "Most people", "row it backwards."],
+  "slides": [
+    {"tag": "The order", "title": "Legs, then body, then arms.", "body": "Drive with the legs first. Swing the body back. Finish with the handle to your ribs."},
+    {"tag": "The mistake", "title": "Pulling before the legs push.", "body": "Bent arms at the catch skip your biggest muscles. Arms stay long until the legs are done."},
+    {"tag": "The return", "title": "Arms, body, then legs.", "body": "Hands past your knees before the knees bend. Otherwise you hitch the handle over them."},
+    {"tag": "The damper", "title": "10 isn't harder. It's heavier.", "body": "A high damper is a slow, heavy boat. Most people move faster somewhere around 4 to 6."},
+    {"tag": "The rhythm", "title": "Fast out, slow back.", "body": "Sharp drive, unhurried return. About one count out and two counts back."}
+  ],
+  "end": ["Tag the one who", "rows on damper 10."]
+}

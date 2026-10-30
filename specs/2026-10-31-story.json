@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Last missed class.", "Be honest.", "What was it?"],
+  "options": ["A. Still sore", "B. The weather", "C. Big week at work", "D. \"Deload\""],
+  "ask": "Reply with A, B, C or D."
+}

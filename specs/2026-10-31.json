@@ -1,0 +1,13 @@
+{
+  "label": "Which slide is you?",
+  "cover": ["Missed class again.", "Which excuse", "is yours?"],
+  "slides": [
+    {"tag": "Is this you?", "title": "The sore one.", "body": "Still sore from Tuesday. It is Saturday. Tuesday was mobility."},
+    {"tag": "Is this you?", "title": "The weather report.", "body": "Too cold. Too hot. Light drizzle, possibly, at some point."},
+    {"tag": "Is this you?", "title": "The big week at work.", "body": "Third big week in a row. Work has never once been small."},
+    {"tag": "Is this you?", "title": "The home workout.", "body": "Will train in the lounge room instead. Watches a video about training."},
+    {"tag": "Is this you?", "title": "The early cancel.", "body": "Cancels at 9pm for a 6am class. Just in case they don't feel like it."},
+    {"tag": "Is this you?", "title": "The deload.", "body": "Calls it a deload. It has been three weeks."}
+  ],
+  "end": ["Tag the one who", "is always on a deload."]
+}
