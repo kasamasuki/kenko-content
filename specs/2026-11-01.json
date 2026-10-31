@@ -1,0 +1,13 @@
+{
+  "label": "Gym culture",
+  "cover": ["Signs you've", "been here", "too long."],
+  "slides": [
+    {"tag": "Sound familiar?", "title": "You have a bar.", "body": "Not a favourite bar. Your bar. You know it by the tape and the slight wobble."},
+    {"tag": "Sound familiar?", "title": "You know the playlist.", "body": "You can tell how much warm-up is left by which song is on."},
+    {"tag": "Sound familiar?", "title": "You read the whiteboard's mood.", "body": "One glance and you know whether coach slept well."},
+    {"tag": "Sound familiar?", "title": "You have a spot.", "body": "Back left corner. Someone new stood there once. You still think about it."},
+    {"tag": "Sound familiar?", "title": "You warn the new people.", "body": "Quietly. About the wall balls. And the rower on the end."},
+    {"tag": "Sound familiar?", "title": "Your PRs are legends now.", "body": "The 2021 deadlift comes up weekly. The details improve every time."}
+  ],
+  "end": ["Tag the one who", "has their own bar."]
+}

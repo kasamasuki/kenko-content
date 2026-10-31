@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Been there a while?", "Which sign", "is you?"],
+  "options": ["A. I have a bar", "B. I have a spot", "C. I know the playlist", "D. I warn the new people"],
+  "ask": "Reply with A, B, C or D."
+}

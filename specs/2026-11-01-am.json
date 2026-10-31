@@ -1,0 +1,12 @@
+{
+  "label": "Retests",
+  "cover": ["You can't feel fitness.", "You can", "retest it."],
+  "slides": [
+    {"tag": "The problem", "title": "Feeling fitter isn't data.", "body": "Good sleep, a good mood and a loud playlist all feel like progress. A retest shows what changed."},
+    {"tag": "The test", "title": "Pick one you can repeat.", "body": "A 2km row, a 10 minute AMRAP, a heavy 5. Same movements and standards every time."},
+    {"tag": "The rule", "title": "Copy the conditions exactly.", "body": "Same time of day, same warm-up, same damper. Change one thing and the result means less."},
+    {"tag": "The timing", "title": "Every 8 to 12 weeks.", "body": "Sooner and you're measuring a good day. Later and you've forgotten what you did."},
+    {"tag": "The record", "title": "Write the splits, not just the score.", "body": "Where you broke and how it felt tells you what to train next."}
+  ],
+  "end": ["Tag the one who", "never logs a score."]
+}
