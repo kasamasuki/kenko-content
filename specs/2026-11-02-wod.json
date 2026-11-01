@@ -1,0 +1,13 @@
+{
+  "kicker": "Workout of the week",
+  "title": "Hinge and row.",
+  "parts": [
+    {"name": "Strength", "detail": "Deadlift",
+     "lines": ["5 x 3 @ 75 to 80%", "Rest 2 min"]},
+    {"name": "Metcon", "detail": "For time, 14 min cap",
+     "lines": ["3 rounds", "500m row", "20 KB swings 24/16kg", "15 box jumps 60/50cm"]}
+  ],
+  "feel": "Strong pulls, then steady rounds. Aim for 9 to 12 min.",
+  "scale": "Scale: 400m row, lighter bell, step-ups.",
+  "ask": "Reply with your time."
+}

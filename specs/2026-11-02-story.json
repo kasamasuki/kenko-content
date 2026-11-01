@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Mid-workout.", "What's your", "go-to line?"],
+  "options": ["A. Just grabbing water", "B. Just shaking it out", "C. Was that 12 or 13?", "D. Fixing my grip"],
+  "ask": "Reply with A, B, C or D."
+}

@@ -1,0 +1,44 @@
+{
+  "label": "Gym culture",
+  "cover": [
+    "Mid-workout lines.",
+    "We all know",
+    "what they mean."
+  ],
+  "slides": [
+    {
+      "tag": "Translated",
+      "title": "\"Just grabbing water.\"",
+      "body": "Forty seconds behind the fridge door. The water was never the point."
+    },
+    {
+      "tag": "Translated",
+      "title": "\"Just shaking it out.\"",
+      "body": "The bar has been down for a full minute. The shaking has not started."
+    },
+    {
+      "tag": "Translated",
+      "title": "\"Was that 12 or 13?\"",
+      "body": "It was 11. We both know it was 11."
+    },
+    {
+      "tag": "Translated",
+      "title": "\"Just fixing my grip.\"",
+      "body": "Third grip fix this round. The grip was fine the first two times."
+    },
+    {
+      "tag": "Translated",
+      "title": "\"I'll go heavier next round.\"",
+      "body": "There is no next round. You know there is no next round."
+    },
+    {
+      "tag": "Translated",
+      "title": "\"My watch says I did more.\"",
+      "body": "Your watch also thinks you sleep eight hours. Your watch is very supportive."
+    }
+  ],
+  "end": [
+    "Tag the one who's always",
+    "grabbing water."
+  ]
+}

@@ -1,0 +1,9 @@
+{"format": "timer", "label": "This week's workout",
+ "hook": ["Deadlifts, row, swings.", "14 minute cap."],
+ "steps": [{"clock": "0:00", "text": "Row smooth. Not a sprint."},
+           {"clock": "2:00", "text": "Swings. Two sets of ten."},
+           {"clock": "3:00", "text": "Box jumps. Step down."},
+           {"clock": "3:45", "text": "Round two. Same split."},
+           {"clock": "7:30", "text": "Last round. Now go."},
+           {"clock": "11:00", "text": "Done. Lie down later."}],
+ "step_dur": 1.5, "end": ["Reply to the Story", "with your time."]}

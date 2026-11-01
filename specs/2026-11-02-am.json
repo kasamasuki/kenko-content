@@ -1,0 +1,12 @@
+{
+  "label": "Double unders",
+  "cover": ["Spinning faster", "won't fix your", "double unders."],
+  "slides": [
+    {"tag": "The truth", "title": "It's not the spin.", "body": "Most misses start with the jump. Your jump changes shape and the rope catches your feet."},
+    {"tag": "The jump", "title": "Same jump, every rep.", "body": "Small, quick and tall. Legs nearly straight, on the balls of your feet. No tuck, no pike."},
+    {"tag": "The arms", "title": "Elbows in. Wrists turn it.", "body": "Hands just in front of your hips. Big arm circles make the rope slower, not faster."},
+    {"tag": "The drill", "title": "Singles at double height.", "body": "Ten tall single unders, then one double. When the jump is right, the rope speeds up on its own."},
+    {"tag": "The rope", "title": "Check the length.", "body": "Stand on the middle. Handles to about your armpits. Too long and every rep is a lottery."}
+  ],
+  "end": ["Tag the one", "with whip marks."]
+}
