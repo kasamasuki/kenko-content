@@ -1,13 +1,26 @@
 # Kenko daily Instagram playbook (@coach_chris_kenko)
 
+## Manager mandate (from 2026-11-02)
+Chris has handed the account to Claude as social media manager. The goal is reach (and the shares that drive it).
+- Claude decides content, slots, posting times, volume, formats, rotation, hook mix and the look, and edits this playbook itself. The weekly review (Mondays) is where changes are made, each one backed by numbers and logged in the Change log below.
+- Fixed, never changed by Claude: no emojis, hashtags or em dashes; never the word "CrossFit"; CTAs never "Download"; no motivational or quote posts; humour never mean about beginners, bodies or injuries; no health scare claims or fake stats; never post photos or video of real people (Claude has none) or anything imitating another account; never invent first-person events as Chris's; only proof posts mention kenkoperformance.com; one workout a week, never a program.
+- Changeable on evidence: "faceless, text-on-dark only", colours and layout, the 4pm rotation, slot times and how many posts a day.
+- Chris's own posts (anything in Buffer's history without an ops/queue file, e.g. 30 Oct "gym buddy eye contact", 27 Oct "Coach: have you been doing your mobility?") are the benchmark: in the week to 1 Nov two of them earned 85 of 111 shares. Study what they do and borrow it.
+- Reporting: Chris hears from Claude in the Monday report (results, changes made, ideas for him to film or post himself) and when something breaks. Daily runs are otherwise silent.
+- The workout of the week no longer needs approval (Chris, 2026-11-02). It is queued with the core posts.
+
+## Change log
+- 2026-11-02: Mandate added. Workout approval dropped. Daily reports stopped (weekly + problems only).
+
+## Slots
 Core strategy (unchanged): two feed posts and one Story every day. Extra weekly posts (added 2026-10-24) sit on top and never replace a core slot. All scheduled through Buffer the evening before.
 Core, every day:
 - 11:00am: coaching insight carousel (slot DATE-am). Back to a carousel from 2026-10-28: the text Reels asked viewers to read too much and they dropped off after two beats. Coaching content needs swipe-at-your-own-pace.
 - 4:00pm: relatable gym culture carousel, following the rotation below (slot DATE).
 - 6:30pm: Story tied to the 4pm post (slot DATE-story).
 Extras:
-- Mon 5:30am: workout of the week Story (slot DATE-wod). Needs Chris's approval.
-- Mon 7:30am: workout walkthrough Reel, timer format (slot DATE-early). Goes with the workout; needs the same approval.
+- Mon 5:30am: workout of the week Story (slot DATE-wod).
+- Mon 7:30am: workout walkthrough Reel, timer format (slot DATE-early). Goes with the workout.
 - Tue, Thu, Sat 7:30am: short punchy Reel (slot DATE-early).
 - Wed 8:00pm: "Rate this workout" Story (slot DATE-rate).
 All feed posts on the same day (11am carousel, 4pm carousel and any 7:30am Reel) must cover different topics.
@@ -34,7 +47,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 
 ## Extra 7:30am Reels (slot DATE-early): Mon, Tue, Thu, Sat
 - Rendered to posts/DATE-early/reel.mp4 with tools/punchy_reel.py, caption ops/captions/DATE-early.txt. Caption: hook, at most 2 short lines, then a permitted CTA ("Save this for your next session." only when the Reel teaches something).
-- Mon: "This week's workout" in the timer format: the workout of the week told as a pacing plan, minute by minute (e.g. "0:00 Steady. Not a sprint." "6:00 Break the pull-ups early." "13:00 Now go."). Label "This week's workout". Hook names the workout. Only posted if the workout is approved.
+- Mon: "This week's workout" in the timer format: the workout of the week told as a pacing plan, minute by minute (e.g. "0:00 Steady. Not a sprint." "6:00 Break the pull-ups early." "13:00 Now go."). Label "This week's workout". Hook names the workout.
 - Tue, Thu, Sat: a punchy Reel in any format except timer (Mon owns it), rotating so no format repeats that week. Mix gym-culture humour (oneliner, flash, versus) with at least one coaching Reel a week (counter, or a oneliner with a real coaching point). Movement-of-the-week teaching (setup, common mistake, scaled version) moves to the 11am carousel as a theme when wanted.
 
 ## Monday 5:30am: workout of the week Story
@@ -46,9 +59,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   - Metcon: common equipment only (barbell, dumbbells, kettlebells, rower, bike, pull-up bar, box, wall ball, skipping rope). Rx loads in kg as male/female (e.g. 43/30kg) plus one scaling line. No high-rep heavy Olympic lifts under fatigue, no high-skill gymnastics in large sets.
   - Alternate emphasis week to week (squat, hinge, press, pull, mixed) and the metcon format (for time, AMRAP, EMOM, intervals). Check the last 8 specs/*-wod.json so nothing repeats.
   - One "feel" line with the intended stimulus and a target time or score, one "Scale:" line, and "Reply with your time." (or "your score" / "your rounds").
-- Chris approves every workout before it is scheduled. The Sunday evening run schedules the normal core slots for Monday as usual, renders and pushes the workout card and the 7:30am walkthrough Reel (caption kept in specs/DATE-early.txt until approved), but queues neither. It sends Chris the card for approval and arms a send_later check-in into its own session for 10:00pm Melbourne.
-- When Chris approves (with any changes he asks for, re-rendering the card and Reel to match), move the caption to ops/captions/DATE-early.txt and queue ops/queue/DATE-wod.json and ops/queue/DATE-early.json together.
-- If there is no approval by the 10:00pm check-in, or Chris rejects it: queue neither and tell him. The core Monday posts are unaffected. Never queue the workout without his explicit approval.
+- No approval needed (from 2026-11-02). The Sunday evening run writes the workout, renders the card and the 7:30am walkthrough Reel, checks both, and queues ops/queue/DATE-wod.json and ops/queue/DATE-early.json (caption ops/captions/DATE-early.txt) with the core Monday posts. The workout rules above still apply in full.
 
 ## 4pm slot: weekly rotation (by the weekday the post goes OUT)
 - Mon: Relatable gym culture carousel ("that person in class", coach's-eye humour).
