@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["\"Any questions?\"", "When do you", "ask yours?"],
+  "options": ["A. During the brief", "B. Right after \"Go\"", "C. Never. I copy my neighbour", "D. Mid-workout, mid-burpee"],
+  "ask": "Reply with A, B, C or D."
+}

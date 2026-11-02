@@ -1,0 +1,45 @@
+{
+  "label": "Gym culture",
+  "cover": [
+    "Coach: \"Any",
+    "questions?\"",
+    "Silence.",
+    "\"3, 2, 1, go.\""
+  ],
+  "slides": [
+    {
+      "tag": "0:04",
+      "title": "\"Is it for time?\"",
+      "body": "It says For Time at the top of the board. In green. Underlined."
+    },
+    {
+      "tag": "0:15",
+      "title": "\"Over the bar?\"",
+      "body": "The burpees? Yes. The coach demoed it. Twice. You nodded both times."
+    },
+    {
+      "tag": "0:40",
+      "title": "\"Five rounds?\"",
+      "body": "Yes. It has been five since 5:45 this morning."
+    },
+    {
+      "tag": "1:30",
+      "title": "\"Can I still scale?\"",
+      "body": "Yes. Same answer as the brief, when we asked who wanted to scale."
+    },
+    {
+      "tag": "6:00",
+      "title": "\"Last movement?\"",
+      "body": "It's the second of four. Keep moving."
+    },
+    {
+      "tag": "14:59",
+      "title": "\"Was that time?\"",
+      "body": "That was time. Write down whatever you think you did."
+    }
+  ],
+  "end": [
+    "Tag the one",
+    "who asks after \"Go.\""
+  ]
+}

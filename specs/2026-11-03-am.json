@@ -1,0 +1,39 @@
+{
+  "label": "Wall balls",
+  "cover": [
+    "Wall balls are",
+    "a squat,",
+    "not a throw."
+  ],
+  "slides": [
+    {
+      "tag": "The truth",
+      "title": "Legs throw it.",
+      "body": "The arms only steer. If your shoulders are cooked by round two, your legs are skipping work."
+    },
+    {
+      "tag": "The catch",
+      "title": "Catch it high.",
+      "body": "Elbows under the ball, absorb it straight into the squat. Don't catch, pause, then squat."
+    },
+    {
+      "tag": "The bottom",
+      "title": "Deep, then drive.",
+      "body": "Hips below knees, chest up. Stand up hard and fast. The ball should feel light on the way up."
+    },
+    {
+      "tag": "The release",
+      "title": "Stand tall first.",
+      "body": "Hips and knees open, then the arms push. Arms are the last thing to move, like a thruster with a target."
+    },
+    {
+      "tag": "The breath",
+      "title": "Exhale as it leaves.",
+      "body": "Breathe out on the throw, in on the catch. Holding your breath is why 20 reps feel like 50."
+    }
+  ],
+  "end": [
+    "Tag the one",
+    "throwing with their arms."
+  ]
+}
