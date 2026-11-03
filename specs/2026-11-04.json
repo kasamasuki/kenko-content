@@ -1,0 +1,44 @@
+{
+  "label": "A lost count story",
+  "cover": [
+    "You lost count",
+    "in round three.",
+    "Now what?"
+  ],
+  "slides": [
+    {
+      "tag": "6:04pm",
+      "title": "You're counting. Out loud.",
+      "body": "Round one, round two. Clean reps, clear head. This time you've got it."
+    },
+    {
+      "tag": "6:09pm",
+      "title": "Then the burpees happen.",
+      "body": "Somewhere between rep 12 and the floor, the number quietly leaves your body."
+    },
+    {
+      "tag": "6:10pm",
+      "title": "You check the chalk marks.",
+      "body": "There are five. Some are rounds. One is where you put your hand down."
+    },
+    {
+      "tag": "6:11pm",
+      "title": "You ask your partner.",
+      "body": "\"Four, I think.\" They're on their own round six. They don't know either."
+    },
+    {
+      "tag": "6:15pm",
+      "title": "Coach asks for your score.",
+      "body": "\"Four plus... a lot.\" Coach writes down 4 and keeps walking."
+    },
+    {
+      "tag": "Next class",
+      "title": "New system: a pile of coins.",
+      "body": "Move one per round. By round three, you're also counting the coins."
+    }
+  ],
+  "end": [
+    "Tag the one who",
+    "always gets an extra round."
+  ]
+}

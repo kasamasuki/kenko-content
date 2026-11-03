@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Lost count", "mid-workout.", "What do you do?"],
+  "options": ["A. Round down. Honest.", "B. Round up. Confident.", "C. Copy my partner's score", "D. One more, just in case"],
+  "ask": "Reply with A, B, C or D."
+}

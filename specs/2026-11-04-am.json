@@ -1,0 +1,39 @@
+{
+  "label": "Kettlebell swings",
+  "cover": [
+    "Stop squatting",
+    "your kettlebell",
+    "swings."
+  ],
+  "slides": [
+    {
+      "tag": "The fix",
+      "title": "It's a hinge, not a squat.",
+      "body": "Hips back, shins nearly vertical. Think fast deadlift, not a squat with a bell attached."
+    },
+    {
+      "tag": "The backswing",
+      "title": "Hike it like a football.",
+      "body": "Let the bell travel high between your thighs. Wait for it, then hinge late and fast."
+    },
+    {
+      "tag": "The snap",
+      "title": "Stand up hard.",
+      "body": "Hips through, glutes squeezed. The bell floats because you stood up, not because you lifted it."
+    },
+    {
+      "tag": "The arms",
+      "title": "Your arms are ropes.",
+      "body": "If your shoulders burn by rep 15, they're doing the job your hips skipped."
+    },
+    {
+      "tag": "The top",
+      "title": "Tall, not leaning back.",
+      "body": "Ribs down, glutes on, one straight line. Leaning back adds zero height."
+    }
+  ],
+  "end": [
+    "Tag the one",
+    "front-raising their swings."
+  ]
+}
