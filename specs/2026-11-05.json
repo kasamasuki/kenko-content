@@ -1,0 +1,13 @@
+{
+  "label": "Which slide is you?",
+  "cover": ["A 2.5kg PR.", "Which one", "are you?"],
+  "slides": [
+    {"tag": "Slide 1", "title": "The silent nod.", "body": "Racks it, walks off, writes it down. Screams internally for the rest of the day."},
+    {"tag": "Slide 2", "title": "\"Was that depth?\"", "body": "Hit the number. Immediately needs three witnesses and a slow-motion replay."},
+    {"tag": "Slide 3", "title": "Didn't film it.", "body": "Best lift of their life. Phone face down on the box. Will describe it for a week."},
+    {"tag": "Slide 4", "title": "Already in the group chat.", "body": "Chalk still on their hands. Message sent before the bar stopped rolling."},
+    {"tag": "Slide 5", "title": "\"It was only 2.5kg.\"", "body": "Says it's nothing. Has told four people. You're the fifth."},
+    {"tag": "Slide 6", "title": "Loading another 2.5kg.", "body": "Coach says that's enough for today. The plates are already on the bar."}
+  ],
+  "end": ["Tag the one", "who told you twice."]
+}

@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["New PR.", "What do you", "do first?"],
+  "options": ["A. Tell the coach", "B. Text the group chat", "C. Load more weight", "D. Play it cool"],
+  "ask": "Reply with A, B, C or D."
+}

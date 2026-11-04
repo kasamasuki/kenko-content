@@ -1,0 +1,12 @@
+{
+  "label": "Pacing",
+  "cover": ["You're not slow.", "Your transitions are."],
+  "slides": [
+    {"tag": "The maths", "title": "Ten seconds, every switch.", "body": "Four movements, five rounds. That's twenty switches and over three minutes standing still."},
+    {"tag": "The chalk bucket", "title": "Chalk isn't a break.", "body": "Chalk up before 3, 2, 1. Mid-workout chalk is a breather with a nice excuse."},
+    {"tag": "Set up first", "title": "Build your station in a line.", "body": "Rower, bar and box close together, facing the same way. Straps set before the clock starts."},
+    {"tag": "Rest on the walk", "title": "Breathe on the way over.", "body": "Take your breaths walking to the next movement. When your hands touch it, the rep starts."},
+    {"tag": "Try this", "title": "Time one transition.", "body": "Next workout, get a partner to time your switch from rower to bar. Then try to halve it."}
+  ],
+  "end": ["Tag the one", "who chalks every round."]
+}

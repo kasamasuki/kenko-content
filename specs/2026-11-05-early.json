@@ -1,0 +1,4 @@
+{"format": "flash", "label": "Screenshot this", "hook": ["Pause on a random frame.", "That's your gym bag."],
+ "items": ["Three odd socks.", "Tape you never use.", "Chalk. On everything.", "One lifting shoe.",
+           "A banana. Past it.", "Knee sleeves, still damp.", "Eleven hair ties.", "Headphones. One side works."],
+ "item_dur": 0.6, "end": ["Tag the one", "with three socks."]}
