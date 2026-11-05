@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Schedule every queued post that is not in posted.log yet. Run by the schedule-post Action.
 
-A queued post is queue/SLOT.json plus captions/SLOT.txt, where SLOT is YYYY-MM-DD (4pm post)
-or YYYY-MM-DD-am (11am post), YYYY-MM-DD-story (6:30pm Story, queue file only, no caption), YYYY-MM-DD-wod (Monday 5:30am workout Story) and YYYY-MM-DD-rate (Wednesday 8pm Story), both like -story, YYYY-MM-DD-early (extra 7:30am Reel, with caption), or YYYY-MM-DD-reel (extra Reel; needs "due": "HH:MM"):
+A queued post is queue/SLOT.json plus captions/SLOT.txt, where SLOT is YYYY-MM-DD (4pm post, paused from 2026-11-06)
+or YYYY-MM-DD-am (12:30pm coaching carousel), YYYY-MM-DD-story (6:30pm Story, queue file only, no caption), YYYY-MM-DD-wod (Monday 5:30am workout Story) and YYYY-MM-DD-rate (Wednesday 8pm Story), both like -story, YYYY-MM-DD-early (extra 7:30am Reel, with caption), or YYYY-MM-DD-reel (extra Reel; needs "due": "HH:MM"):
   {"images": ["https://raw.githubusercontent.com/.../01.png", ...], "proof": false}
 or, for a Reel:
   {"video": "https://raw.githubusercontent.com/.../reel.mp4"}

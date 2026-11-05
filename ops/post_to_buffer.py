@@ -2,7 +2,7 @@
 """Schedule one Instagram feed post (single image, carousel or Reel) on Buffer.
 Usage: post_to_buffer.py SLOT captions/SLOT.txt IMAGE_URL [IMAGE_URL ...] [--proof] [--dry-run]
        post_to_buffer.py SLOT captions/SLOT.txt VIDEO_URL.mp4 [--dry-run]   (Reel, also shared to feed)
-SLOT is YYYY-MM-DD for the 4pm post or YYYY-MM-DD-am for the 11am post (Melbourne time).
+SLOT is YYYY-MM-DD for the 4pm post (paused from 2026-11-06) or YYYY-MM-DD-am for the 12:30pm coaching carousel (Melbourne time).
 SLOT YYYY-MM-DD-story is the daily Story (6:30pm; 1 to 10 images or one .mp4; no caption, since a
 Story caption forces Buffer into manual notification publishing).
 SLOT YYYY-MM-DD-wod is the Monday workout-of-the-week Story (5:30am; same rules as -story).
@@ -17,7 +17,7 @@ from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 CHANNEL_ID = "6a97e322065799be4671f725"   # @coach_chris_kenko
-POST_TIMES = {"pm": (16, 0), "am": (11, 0), "story": (18, 30), "wod": (5, 30), "early": (7, 30), "rate": (20, 0)}
+POST_TIMES = {"pm": (16, 0), "am": (12, 30), "story": (18, 30), "wod": (5, 30), "early": (7, 30), "rate": (20, 0)}
 MAX_WORDS = 80
 THUMB_MS = 1500   # Reel cover frame: the hook is fully on screen by 1.5s
 
@@ -50,7 +50,7 @@ if is_story:
     caption = ""
 else:
     caption = open(cap_file).read().strip()
-for bad, why in [("—", "em dash"), ("#", "hashtag"), ("crossfit", "the word CrossFit")]:
+for bad, why in [("—", "em dash"), ("#", "hashtag")]:
     if bad in caption.lower():
         sys.exit(f"Caption breaks brand rules: contains {why}.")
 if not proof and ("kenkoperformance" in caption.lower() or "link in bio" in caption.lower()):
