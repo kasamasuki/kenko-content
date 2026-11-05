@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Heavy squat.", "What does your", "breath do?"],
+  "options": ["A. Big breath, brace hard", "B. Suck the belly in", "C. Breathe on the way down", "D. What breath?"],
+  "ask": "Reply with A, B, C or D."
+}

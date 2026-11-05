@@ -1,0 +1,12 @@
+{
+  "label": "Bracing",
+  "cover": ["Sucking your", "belly in", "isn't bracing."],
+  "slides": [
+    {"tag": "The myth", "title": "Belly in isn't tight.", "body": "Pulling your stomach in takes away the pressure that holds your spine still. Less pressure, less support under the bar."},
+    {"tag": "The fix", "title": "Breathe into your belt line.", "body": "Big breath into your belly, sides and lower back. Then tighten around it like someone's about to poke you."},
+    {"tag": "The timing", "title": "Brace before you move.", "body": "Breathe and brace standing tall, then start the rep. Bracing halfway down is already too late."},
+    {"tag": "Heavy sets", "title": "One breath per rep.", "body": "Reset your air and your brace at the top of every heavy rep. Three reps on one breath makes rep three soft."},
+    {"tag": "The belt", "title": "A belt is a wall, not a brace.", "body": "It gives your brace something to push against. No brace, and it's just an expensive accessory."}
+  ],
+  "end": ["Tag your", "squat partner."]
+}
