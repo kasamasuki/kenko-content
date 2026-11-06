@@ -1,0 +1,1 @@
+{"format": "counter", "label": "Running pacing", "hook": ["Sprint the first 400.", "Watch lap 4."], "unit": "/400m", "time": true, "stages": [{"label": "Lap 1", "value": 95}, {"label": "Lap 2", "value": 118}, {"label": "Lap 3", "value": 132}, {"label": "Lap 4", "value": 140}], "punch": ["Even laps", "finish faster."]}

@@ -1,0 +1,39 @@
+{
+  "label": "Rest periods",
+  "cover": [
+    "Your third set",
+    "failed in the",
+    "rest period."
+  ],
+  "slides": [
+    {
+      "tag": "The problem",
+      "title": "60 seconds isn't enough.",
+      "body": "Heavy sets at 75 to 85% take more than your breath. You feel ready after a minute. Your legs aren't."
+    },
+    {
+      "tag": "The fix",
+      "title": "Rest 2 to 3 minutes.",
+      "body": "Heavy triples and fives? Start a timer. Go when it beeps, not when the chat ends."
+    },
+    {
+      "tag": "Too long",
+      "title": "Six minutes is too long.",
+      "body": "Rest that long and you cool off. The bar feels heavier than it is. Stay warm, stay near it."
+    },
+    {
+      "tag": "Use the rest",
+      "title": "Resting is a job.",
+      "body": "Sit, breathe slow, sip water, pick one cue. Stand up 20 seconds before the beep."
+    },
+    {
+      "tag": "Metcons",
+      "title": "Conditioning is different.",
+      "body": "Short rest is the point in intervals. Long rest is the point on strength days. Don't train them the same."
+    }
+  ],
+  "end": [
+    "Tag the partner who",
+    "talks through your rest."
+  ]
+}

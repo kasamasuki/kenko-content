@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Heavy sets.", "How long do you", "really rest?"],
+  "options": ["A. Timer. 2 to 3 minutes", "B. Until I feel ready", "C. Until the chat ends", "D. Until coach looks over"],
+  "ask": "Reply with A, B, C or D."
+}
