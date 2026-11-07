@@ -1,0 +1,40 @@
+{
+  "label": "Grip",
+  "cover": [
+    "Your grip",
+    "isn't weak.",
+    "You never",
+    "let go."
+  ],
+  "slides": [
+    {
+      "tag": "The problem",
+      "title": "You hang on between reps.",
+      "body": "Resting while hanging off the bar keeps your forearms working. That's grip work nobody programmed."
+    },
+    {
+      "tag": "Let go early",
+      "title": "Plan the break before it fails.",
+      "body": "Toes-to-bar, deadlifts, carries. Two short planned breaks beat one long forced one."
+    },
+    {
+      "tag": "Shake it out",
+      "title": "Hands low, fingers loose.",
+      "body": "Arms down by your sides and shake. Squeezing your water bottle between sets is still gripping."
+    },
+    {
+      "tag": "Barbell",
+      "title": "Hook grip on cleans and snatches.",
+      "body": "Thumb under your fingers. The bar stops prying your hand open. Odd for two weeks, then it sticks."
+    },
+    {
+      "tag": "Dial it",
+      "title": "Grip as hard as the rep needs.",
+      "body": "A kettlebell swing needs a firm hold, not white knuckles. Save the full squeeze for heavy pulls."
+    }
+  ],
+  "end": [
+    "Tag the partner who",
+    "hangs off the rig."
+  ]
+}

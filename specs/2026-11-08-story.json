@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Forearms gone", "by round two.", "What do you do?"],
+  "options": ["A. Hang on and hope", "B. Planned breaks early", "C. Drop it, then panic", "D. Blame the chalk"],
+  "ask": "Reply with A, B, C or D."
+}
