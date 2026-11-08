@@ -1,37 +1,37 @@
-# Weekly summary (2026-11-01)
+# Weekly summary (2026-11-08)
 
-- Posts: 29. Reach 6829 total, 235 average. Shares 111. Saves 8.
-- Best: Fri 30 Oct "Who is your creep of a gym buddy that makes too much eye contact while" (reach 901, shares 48, saves 2)
-- Worst: Sun 01 Nov "You can't feel fitness. You can retest it." (reach 55, shares 0, saves 0)
+- Posts: 29. Reach 23008 total, 793 average. Shares 1947. Saves 53.
+- Best: Tue 03 Nov "They all keep asking to warm up with my working weight." (reach 12523, shares 1589, saves 30)
+- Worst: Sun 08 Nov "(no caption)" (reach 0, shares 0, saves 0)
 
 | Date | Hook | Reach | Shares | Saves |
 |---|---|---|---|---|
-| Mon 26 Oct | Your easy cardio is too hard. | 208 | 0 | 0 |
-| Mon 26 Oct | Coaches watch you read the whiteboard. | 202 | 1 | 0 |
-| Mon 26 Oct | (no caption) | 70 | 0 | 0 |
-| Mon 26 Oct | Strict press turning into a backbend? | 209 | 0 | 0 |
-| Tue 27 Oct | Your warm-up should look like the workout. | 147 | 0 | 0 |
-| Tue 27 Oct | Lying on the floor isn't a cooldown. | 362 | 3 | 0 |
-| Tue 27 Oct | (no caption) | 67 | 0 | 0 |
-| Tue 27 Oct | Coach:  Have you been doing your mobility?  | 418 | 37 | 2 |
-| Wed 28 Oct | No supplement beats a 10pm bedtime. | 119 | 1 | 0 |
-| Wed 28 Oct | Light day, you said. Then someone loaded 100kg. | 125 | 0 | 0 |
-| Wed 28 Oct | (no caption) | 126 | 0 | 0 |
-| Wed 28 Oct | (no caption) | 123 | 0 | 0 |
-| Wed 28 Oct | Stretching won't fix your squat. | 199 | 7 | 0 |
-| Thu 29 Oct | A 7 minute workout shouldn't take you 20. | 206 | 1 | 0 |
-| Thu 29 Oct | 60 seconds left. Which one are you? | 157 | 0 | 0 |
-| Thu 29 Oct | (no caption) | 293 | 0 | 0 |
-| Fri 30 Oct | Unbroken in round one. Singles by round three. | 123 | 0 | 0 |
-| Fri 30 Oct | Who is your creep of a gym buddy that makes too much eye contact while | 901 | 48 | 2 |
-| Fri 30 Oct | Every gym group chat has these messages. | 230 | 2 | 0 |
-| Fri 30 Oct | (no caption) | 342 | 0 | 0 |
-| Fri 30 Oct | Which hurts more? Pick fast. | 192 | 1 | 0 |
-| Sat 31 Oct | Legs, body, arms. Most people row it backwards. | 216 | 0 | 2 |
-| Sat 31 Oct | Missed class again. Which excuse is yours? | 109 | 2 | 0 |
-| Sat 31 Oct | (no caption) | 420 | 0 | 0 |
-| Sat 31 Oct | First Halloween for little man. Quickly whipped up chucky costume | 404 | 0 | 0 |
-| Sat 31 Oct | You finally PR your snatch AND you actually filmed it.  But then you w | 400 | 8 | 2 |
-| Sun 01 Nov | You can't feel fitness. You can retest it. | 55 | 0 | 0 |
-| Sun 01 Nov | Signs you've been here too long. | 109 | 0 | 0 |
-| Sun 01 Nov | (no caption) | 297 | 0 | 0 |
+| Mon 02 Nov | Spinning faster won't fix your double unders. | 194 | 0 | 0 |
+| Mon 02 Nov | Mid-workout lines. We all know what they mean. | 221 | 0 | 0 |
+| Mon 02 Nov | (no caption) | 339 | 0 | 0 |
+| Mon 02 Nov | You don't need a new program. | 91 | 0 | 0 |
+| Tue 03 Nov | Wall balls are a squat, not a throw. | 550 | 1 | 4 |
+| Tue 03 Nov | Coach: "Any questions?" Silence. "3, 2, 1, go." | 210 | 0 | 0 |
+| Tue 03 Nov | (no caption) | 296 | 0 | 0 |
+| Tue 03 Nov | They all keep asking to warm up with my working weight. | 12523 | 1589 | 30 |
+| Wed 04 Nov | Stop squatting your kettlebell swings. | 165 | 0 | 0 |
+| Wed 04 Nov | You lost count in round three. Now what? | 117 | 0 | 0 |
+| Wed 04 Nov | (no caption) | 203 | 0 | 0 |
+| Wed 04 Nov | (no caption) | 162 | 0 | 0 |
+| Wed 04 Nov | Pause on a random frame. That's your gym bag. | 211 | 0 | 0 |
+| Thu 05 Nov | You're not slow. Your transitions are. | 124 | 0 | 0 |
+| Thu 05 Nov | Every box has at least one of these people. Some boxes are run entirel | 1048 | 41 | 3 |
+| Thu 05 Nov | A 2.5kg PR. Which one are you? | 157 | 0 | 0 |
+| Thu 05 Nov | (no caption) | 279 | 0 | 0 |
+| Thu 05 Nov | Well.. if I’m not winning the WOD I’ll definitely win the warm up.  Ta | 2104 | 226 | 7 |
+| Fri 06 Nov | Sucking your belly in isn't bracing. | 316 | 0 | 2 |
+| Fri 06 Nov | (no caption) | 335 | 0 | 0 |
+| Fri 06 Nov | Sprint the first 400. Watch lap 4. | 241 | 0 | 0 |
+| Fri 06 Nov | CrossFit doesn’t give you options. It gives you a whiteboard, a timer, | 1150 | 51 | 5 |
+| Sat 07 Nov | Your third set failed in the rest period. | 155 | 0 | 1 |
+| Sat 07 Nov | (no caption) | 348 | 0 | 0 |
+| Sat 07 Nov | I still tried to keep up.  Does anyone know the number of a good chiro | 1091 | 39 | 1 |
+| Sun 08 Nov | Your grip isn't weak. You never let go. | 132 | 0 | 0 |
+| Sun 08 Nov | (no caption) | 246 | 0 | 0 |
+| Sun 08 Nov | (no caption) | 0 | 0 | 0 |
+| Sun 08 Nov | Front squats, wall balls, pull-ups. 16 minute EMOM. | 0 | 0 | 0 |
