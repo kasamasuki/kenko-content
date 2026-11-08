@@ -1,0 +1,17 @@
+{
+  "label": "Breathing",
+  "cover": ["You're not unfit.", "You're holding", "your breath."],
+  "slides": [
+    {"tag": "The tell", "title": "You stop breathing when it gets hard.",
+     "body": "Watch the last five reps of any set. Mouth shut, face red, one huge gasp at the end."},
+    {"tag": "The mistake", "title": "Bracing is for heavy. Not for 30 reps.",
+     "body": "Hold your breath for one heavy rep. Hold it through a long set and you blow up early."},
+    {"tag": "The rule", "title": "Exhale on every rep.",
+     "body": "Thrusters, burpees, box jumps. Out on the effort, in on the way back. Every rep."},
+    {"tag": "Between sets", "title": "Rest in your breath, not the clock.",
+     "body": "Long slow exhales. Three of them beat standing over the bar panting."},
+    {"tag": "Try it", "title": "Set the rhythm in round one.",
+     "body": "Pick it while it's easy. If you don't have it in round one, it won't show up in round four."}
+  ],
+  "end": ["Tag the partner you", "can hear from here."]
+}

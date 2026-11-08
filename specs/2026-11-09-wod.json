@@ -1,0 +1,13 @@
+{
+  "kicker": "Workout of the week",
+  "title": "Squat on the minute.",
+  "parts": [
+    {"name": "Strength", "detail": "Front squat",
+     "lines": ["5 x 3 @ 75 to 80%", "Rest 2 to 3 min"]},
+    {"name": "Metcon", "detail": "EMOM 16 min, 4 rounds",
+     "lines": ["Min 1: 14/10 cal bike", "Min 2: 12 wall balls 9/6kg", "Min 3: 10 pull-ups", "Min 4: Rest"]}
+  ],
+  "feel": "Finish each minute with 15 seconds spare.",
+  "scale": "Scale: 10/7 cal, 6kg ball, ring rows.",
+  "ask": "Reply with your score: minutes beaten out of 12."
+}

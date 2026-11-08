@@ -1,0 +1,9 @@
+{"format": "timer", "label": "This week's workout",
+ "hook": ["Front squats.", "Wall balls.", "16 minute EMOM."],
+ "steps": [{"clock": "0:00", "text": "Bike steady. Not a sprint."},
+           {"clock": "1:00", "text": "Wall balls. One set."},
+           {"clock": "2:00", "text": "Pull-ups. Break early."},
+           {"clock": "3:00", "text": "Rest. Actually rest."},
+           {"clock": "8:00", "text": "Same pace. No heroes."},
+           {"clock": "12:00", "text": "Last round. Now go."}],
+ "step_dur": 1.5, "end": ["Reply to the Story", "with your score."]}

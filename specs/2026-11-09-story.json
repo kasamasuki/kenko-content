@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Last five reps.", "What's your", "breathing doing?"],
+  "options": ["A. Every rep, on purpose", "B. One giant gasp", "C. I forget to", "D. Loud. Everyone knows"],
+  "ask": "Reply with A, B, C or D."
+}
