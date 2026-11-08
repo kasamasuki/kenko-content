@@ -13,6 +13,10 @@ Chris has handed the account to Claude as social media manager. The goal is reac
 - The workout of the week no longer needs approval (Chris, 2026-11-02). It is queued with the core posts.
 
 ## Change log
+- 2026-11-09 (weekly review): Week to 8 Nov: 29 posts, reach 23,008, 1,947 shares, 53 saves (prev week 6,829 / 111 / 8). Chris's 5 posts earned 1,946 of 1,947 shares and 46 of 53 saves; Claude's 22 mature posts earned 1 share. Non-follower reach, profile visits and link taps are not in Buffer's data, so reach, views and shares are the measures here. Last week's changes: moving the coaching carousel to 12:30pm shows no measurable effect yet (n=3, reach 316/155/132 vs 11am median 180); pausing the 4pm carousel cost nothing (last 4 earned 0 shares).
+  - Change 1 (EXPERIMENT, runs to 2026-11-26): Tue/Thu/Sat 7:30am Reels become "class moment" oneliners modelled on Chris's memes: a specific class time plus a specific person or moment, second person ("when you..."), affectionate, 5 to 7 seconds looping. Hypothesis: the relatable class-moment structure, not the clip, drives shares, so a text Reel using it earns shares where coaching Reels did not (last 6 Reels: median shares 0, one Reel earned 7). Keep if the 8 Reels from 10 Nov have median shares of at least 3 and beat the 12:30pm carousels on median shares and reach. Drop (and cut the slot) otherwise. Judge the existing trial only on these 8 Reels.
+  - Change 2: 12:30pm carousel captions lead with a tag CTA naming the exact fault ("Tag the training partner who does this.") before the save line. Evidence: 7 carousels earned 1 share and 7 saves; shares are the goal and they earned none. Keep if carousels earn at least 5 shares across the next 7 posts.
+  - Tooling (not a strategy change): ops/weekly_summary.py now shows Melbourne send time, media type, views, watch time, reactions and comments.
 - 2026-11-05 (agreed with Chris): Chris now posts a daily meme Reel at about 9:30am. 4pm relatable carousel paused (slot DATE): Chris's memes do relatable humour far better (15.3k vs about 700 views for carousels in the 30 days to 5 Nov). Coaching carousel moved from 11:00am to 12:30pm so it sits after his meme, inside the 9am to 12pm activity peak's tail. 6:30pm Story now ties to the 12:30pm carousel. "CrossFit" allowed on Instagram. Tue/Thu/Sat 7:30am text Reels kept as an experiment until 2026-11-26: keep them only if their median shares and non-follower reach beat the 12:30pm carousels; otherwise cut them. Evidence: 30-day insights to 5 Nov, 33.7k views, 85.4% from followers, 3 external link taps, top 3 posts all meme Reels.
 - 2026-11-02: Mandate added. Workout approval dropped. Daily reports stopped (weekly + problems only).
 
@@ -36,7 +40,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - One sharp coach-level observation per carousel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems, warm-ups, pacing, scaling). One idea per slide, no lecture.
 - Format: tools/carousel.py, 5 to 7 slides: cover hook, 3 to 5 content slides (tag, title under ~40 characters, body under ~120), end slide with a CTA. Render to posts/DATE-am/ and queue {"images": [slide URLs in order], "proof": false}.
 - The hook must be specific and land on the cover.
-- End the caption with "Save this for your next session." then a permitted CTA.
+- End the caption with a tag CTA naming the exact fault ("Tag the training partner who does this."), then "Save this for your next session." on its own line. Tag CTA first; shares are the goal.
 - Rotate themes across the week so no theme repeats within 7 days. Don't repeat the topic of that day's 7:30am Reel.
 
 ## Reels: short and punchy (from 2026-10-28)
@@ -47,14 +51,14 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   3. flash: "Pause on a random frame" / "Screenshot" list of 6 to 10 types or habits, 0.6s each.
   4. counter: a number ticks to each value (splits, reps, rounds, kilos), then one coaching punchline.
   5. versus: this or that, 4 to 6 pairs.
-- Never the same format in two Reels in a row, and use at least three different formats each week. Hooks and topics follow the same rules as feed posts (different topic from that day's 12:30pm carousel).
+- Until 2026-11-26 the Tue/Thu/Sat Reels are all oneliners (experiment), so the format-variety rule is suspended for them; Monday stays timer. Hooks and topics follow the same rules as feed posts (different topic from that day's 12:30pm carousel).
 - Old long-beat text Reels (tools/reel.py) are retired. Don't use them.
 
 ## Extra 7:30am Reels (slot DATE-early): Mon, Tue, Thu, Sat
-- Tue/Thu/Sat Reels are on trial until 2026-11-26 (see Change log). Lean to coaching Reels (counter, oneliner with a real coaching point); Chris covers gym-culture humour with his memes.
+- Tue/Thu/Sat Reels are on trial until 2026-11-26 (see Change log 2026-11-09). All three are "class moment" oneliners: a specific class time plus a specific person or moment, in second person ("when you..."), affectionate, 5 to 7 seconds, looping. Model them on Chris's best memes (warm-up ego, being out-lifted by someone unexpected, the whiteboard). Never first-person events as Chris's, never mean about beginners, bodies or injuries. Each must differ in topic from that day's 12:30pm carousel and from Chris's recent memes.
 - Rendered to posts/DATE-early/reel.mp4 with tools/punchy_reel.py, caption ops/captions/DATE-early.txt. Caption: hook, at most 2 short lines, then a permitted CTA ("Save this for your next session." only when the Reel teaches something).
 - Mon: "This week's workout" in the timer format: the workout of the week told as a pacing plan, minute by minute (e.g. "0:00 Steady. Not a sprint." "6:00 Break the pull-ups early." "13:00 Now go."). Label "This week's workout". Hook names the workout.
-- Tue, Thu, Sat: a punchy Reel in any format except timer (Mon owns it), rotating so no format repeats that week. Mix gym-culture humour (oneliner, flash, versus) with at least one coaching Reel a week (counter, or a oneliner with a real coaching point). Movement-of-the-week teaching (setup, common mistake, scaled version) moves to the 11am carousel as a theme when wanted.
+- Tue, Thu, Sat: a class-moment oneliner (see above) until 2026-11-26. Movement-of-the-week teaching (setup, common mistake, scaled version) moves to the 12:30pm carousel as a theme when wanted.
 
 ## Monday 5:30am: workout of the week Story
 - One workout a week, Mondays only. Not daily: Chris's full programming stays in his product, so never post a week plan or a program, only this one session.
