@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["First rep of", "the deadlift.", "What moves first?"],
+  "options": ["A. The bar, like it should", "B. My hips, apparently", "C. Never filmed it", "D. My ego"],
+  "ask": "Reply with A, B, C or D."
+}

@@ -1,0 +1,17 @@
+{
+  "label": "Deadlift",
+  "cover": ["The bar", "didn't move.", "Your hips did."],
+  "slides": [
+    {"tag": "The tell", "title": "Now it's a stiff-leg deadlift.",
+     "body": "Legs straight, bar still on the floor. You skipped the first part of the lift."},
+    {"tag": "The cause", "title": "You yanked it off the floor.",
+     "body": "Every loaded bar has slack in it. Jerk it and your hips shoot up looking for the tension you skipped."},
+    {"tag": "The fix", "title": "Pull the slack out first.",
+     "body": "Arms long, lats on. Lift until the bar clicks against the plates. Only then does the rep start."},
+    {"tag": "The cue", "title": "Push the floor away.",
+     "body": "Think leg press, not pull. Hips and shoulders rise at the same speed until the bar passes your knees."},
+    {"tag": "Test it", "title": "Film one set from the side.",
+     "body": "If your hips move and the bar doesn't, take some weight off and own the start."}
+  ],
+  "end": ["Tag the partner whose", "hips rise first."]
+}
