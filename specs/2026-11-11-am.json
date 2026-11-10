@@ -1,0 +1,17 @@
+{
+  "label": "Overhead press",
+  "cover": ["Your press", "isn't stuck.", "Your ribs are."],
+  "slides": [
+    {"tag": "The tell", "title": "You lean back to finish it.",
+     "body": "Ribs flared, lower back arched, bar overhead. It looks locked out. It isn't."},
+    {"tag": "The cost", "title": "The arch steals your lockout.",
+     "body": "Lean back and the bar ends up in front of you. Your shoulders hold it out there instead of stacking under it."},
+    {"tag": "The fix", "title": "Ribs down before the bar moves.",
+     "body": "Squeeze your glutes, brace, pull your ribs down. Then press. Not the other way round."},
+    {"tag": "The finish", "title": "Head through the window.",
+     "body": "Bar over the middle of your foot, ears just in front of your arms. Wrists, shoulders and hips in one line."},
+    {"tag": "Test it", "title": "Can't lock out without arching?",
+     "body": "Then it's too heavy for a strict press today. Drop the load until the line stays stacked."}
+  ],
+  "end": ["Tag the partner who", "limbos every press."]
+}

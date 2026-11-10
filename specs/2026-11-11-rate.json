@@ -1,0 +1,6 @@
+{
+  "kicker": "Rate this workout",
+  "lines": ["300 wall balls.", "Your partner", "counts the", "no reps."],
+  "options": ["A. Love it", "B. Hate it", "C. We're not partners anymore"],
+  "ask": "Reply with A, B or C."
+}

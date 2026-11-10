@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Heavy press.", "Last rep.", "Where do you go?"],
+  "options": ["A. Straight up, ribs down", "B. Full limbo", "C. Sneaky push press", "D. Ask for a spot"],
+  "ask": "Reply with A, B, C or D."
+}
