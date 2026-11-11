@@ -1,0 +1,17 @@
+{
+  "label": "Thrusters",
+  "cover": ["Your thruster", "is two lifts.", "Make it one."],
+  "slides": [
+    {"tag": "The tell", "title": "Squat. Stop. Press.",
+     "body": "You stand up, the bar parks on your shoulders, then your arms start a whole new lift."},
+    {"tag": "The cost", "title": "Your arms do the legs' job.",
+     "body": "The stop kills the drive from your hips. Now your shoulders press the full weight, every rep, for 21 reps."},
+    {"tag": "The fix", "title": "Press while you stand.",
+     "body": "Drive hard out of the bottom and start pushing as your hips open. Legs launch it, arms just finish it."},
+    {"tag": "The setup", "title": "Elbows up at the bottom.",
+     "body": "Bar on your shoulders, not in your hands. Elbows drop and the bar rolls forward before you even stand."},
+    {"tag": "The breath", "title": "Breathe at the top.",
+     "body": "Lockout is your only rest. Exhale overhead, quick breath on the way down, brace, go."}
+  ],
+  "end": ["Tag the partner who", "squats, stops, then presses."]
+}

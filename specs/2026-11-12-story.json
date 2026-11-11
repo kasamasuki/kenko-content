@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Thrusters.", "Rep 15 of 21.", "Which fault is yours?"],
+  "options": ["A. Squat, stop, press", "B. Elbows drop", "C. All arms", "D. Forgot to breathe"],
+  "ask": "Reply with A, B, C or D."
+}
