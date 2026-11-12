@@ -1,0 +1,17 @@
+{
+  "label": "Scaling",
+  "cover": ["We all know", "someone who", "never scales."],
+  "slides": [
+    {"tag": "The tell", "title": "Rx on the board. Stuck by round 3.",
+     "body": "They start at race pace, then spend the middle rounds standing over the bar."},
+    {"tag": "The test", "title": "Check round one.",
+     "body": "If the first round already needs long breaks, the load is too heavy for today's workout."},
+    {"tag": "Load", "title": "Drop the weight, keep the reps.",
+     "body": "Keep the movement and the rep scheme. Take 10 to 20% off the bar and keep moving."},
+    {"tag": "Skill", "title": "Swap the skill, keep the pattern.",
+     "body": "No toes-to-bar yet? Knee raises. Same trunk work, same pace, no standoff with the rig."},
+    {"tag": "The truth", "title": "Scaled and moving wins.",
+     "body": "Hitting the intended pace builds the fitness that gets you to Rx. Standing at the bar doesn't."}
+  ],
+  "end": ["Tag the partner who", "never scales."]
+}

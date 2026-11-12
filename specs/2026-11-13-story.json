@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Board says Rx.", "Bar feels heavy.", "What do you do?"],
+  "options": ["A. Rx anyway", "B. Scale it down", "C. Ask the coach", "D. Blame the warm-up"],
+  "ask": "Reply with A, B, C or D."
+}
