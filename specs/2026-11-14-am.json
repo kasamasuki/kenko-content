@@ -1,0 +1,17 @@
+{
+  "label": "Box jumps",
+  "cover": ["You're not", "jumping higher.", "You're tucking higher."],
+  "slides": [
+    {"tag": "The tell", "title": "Landing deep.",
+     "body": "Hips below knees on the box means it measured how high you tucked, not how high you jumped."},
+    {"tag": "The fix", "title": "Land like you left.",
+     "body": "Pick the height you land on in a quarter squat. Feet flat, quiet landing. That's your box today."},
+    {"tag": "The standard", "title": "Stand tall on top.",
+     "body": "Hips and knees open before you come down. A crouch on the box and a hop off is half a rep."},
+    {"tag": "In a workout", "title": "Step down. Always.",
+     "body": "It costs a second and saves your legs for the next 40 reps. Rebounds are for fresh legs and good skill."},
+    {"tag": "The truth", "title": "Lower box wins.",
+     "body": "A box you land quietly on trains your jump. One you scrape onto trains your tuck."}
+  ],
+  "end": ["Tag the partner who", "lands in a deep squat."]
+}

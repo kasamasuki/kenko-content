@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Box jump.", "Be honest.", "How do you land?"],
+  "options": ["A. Quarter squat, quiet", "B. Knees to chest", "C. Step-ups, every rep", "D. Sick on box jump day"],
+  "ask": "Reply with A, B, C or D."
+}
