@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Toes-to-bar.", "How does", "your set end?"],
+  "options": ["A. Linked, every rep", "B. Two, then a big swing", "C. One, then a dead hang", "D. Knee raises, proudly"],
+  "ask": "Reply with A, B, C or D."
+}
