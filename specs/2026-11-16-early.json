@@ -1,0 +1,39 @@
+{
+ "format": "timer",
+ "label": "This week's workout",
+ "hook": [
+  "Cleans. Rows.",
+  "Burpees."
+ ],
+ "steps": [
+  {
+   "clock": "0:00",
+   "text": "Row smooth. Save your legs."
+  },
+  {
+   "clock": "1:00",
+   "text": "DB rows. Unbroken, calm."
+  },
+  {
+   "clock": "1:30",
+   "text": "Burpees. Don't stop."
+  },
+  {
+   "clock": "3:00",
+   "text": "Rest. Write down your burpees."
+  },
+  {
+   "clock": "8:00",
+   "text": "Match round one's row."
+  },
+  {
+   "clock": "12:00",
+   "text": "Last round. Empty it."
+  }
+ ],
+ "step_dur": 1.6,
+ "end": [
+  "Reply to the Story",
+  "with your score."
+ ]
+}

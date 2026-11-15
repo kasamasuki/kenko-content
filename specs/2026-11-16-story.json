@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["Your last", "five classes.", "How many all out?"],
+  "options": ["A. One or two", "B. Three or four", "C. All five", "D. Six. I did two today."],
+  "ask": "Reply with A, B, C or D."
+}

@@ -1,0 +1,39 @@
+{
+  "label": "Programming",
+  "cover": [
+    "Stop going",
+    "100% every",
+    "class."
+  ],
+  "slides": [
+    {
+      "tag": "The fault",
+      "title": "Warm-up? Max. Metcon? Max.",
+      "body": "Every class is a race. By Thursday your best effort is Monday's warm-up pace."
+    },
+    {
+      "tag": "Why it stalls",
+      "title": "Tired legs can't sprint.",
+      "body": "Redline every day and your hard days get slower. You train hard, just never at your best."
+    },
+    {
+      "tag": "The fix",
+      "title": "Two or three hard days a week.",
+      "body": "Pick them, then go all in. Every other class at 7 out of 10, clean reps, honest pace."
+    },
+    {
+      "tag": "Read the board",
+      "title": "Know the stimulus.",
+      "body": "Heavy and crisp, long and steady, or short and savage. Match the job, not the person next to you."
+    },
+    {
+      "tag": "How you'll know",
+      "title": "Hard days get harder.",
+      "body": "Fresh legs hit splits you couldn't touch before. That's the fitness finally showing up."
+    }
+  ],
+  "end": [
+    "Tag the partner who",
+    "goes 100% every class."
+  ]
+}

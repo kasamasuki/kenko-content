@@ -1,0 +1,13 @@
+{
+  "kicker": "Workout of the week",
+  "title": "Clean, then intervals.",
+  "parts": [
+    {"name": "Strength", "detail": "Power clean",
+     "lines": ["Every 2 min x 8: 3 reps", "@ 70 to 75%. Fast, crisp bar."]},
+    {"name": "Metcon", "detail": "Intervals, 16 min",
+     "lines": ["4 x 3 min on, 1 min off", "12/9 cal row", "10 DB bent-over rows 22.5/15kg", "Max burpees in the time left"]}
+  ],
+  "feel": "Hard but repeatable. Aim for 40 to 60 total burpees.",
+  "scale": "Scale: hang power clean, 9/7 cal, lighter DBs.",
+  "ask": "Reply with your score."
+}
