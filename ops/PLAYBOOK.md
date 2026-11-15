@@ -7,12 +7,17 @@ Chris has handed the account to Claude as social media manager. The goal is reac
 - Changeable on evidence: "faceless, text-on-dark only", colours and layout, the 4pm rotation, slot times and how many posts a day.
 - The word "CrossFit" is allowed on Instagram from 2026-11-05 (Chris: the CrossFit branding ban applies only inside the Kenko app). Use it where it is how the audience describes itself ("the 6am CrossFit class", "CrossFit coaches"). Never imply Kenko is affiliated with or endorsed by CrossFit, and never use CrossFit logos.
 - Chris's own posts (anything in Buffer's history without an ops/queue file, e.g. 30 Oct "gym buddy eye contact", 27 Oct "Coach: have you been doing your mobility?") are the benchmark: in the week to 1 Nov two of them earned 85 of 111 shares. Study what they do and borrow it.
-- From 2026-11-06 Chris posts one meme Reel a day himself at about 9:30am (film or TV clip with a relatable class caption). His 3 Nov meme ("only guy at the 9:30 CrossFit class with all the mums that out-lift you") did 15.3k views and 1.7k interactions, more than every other post in the 30 days to 5 Nov combined. Claude's posts support his memes and must not compete with them: nothing Claude queues goes out between 8:30am and 11:30am except the Monday walkthrough Reel and the Tue/Thu/Sat 7:30am test Reels.
+- From 2026-11-06 Chris posts one meme Reel a day himself at about 9:30am (film or TV clip with a relatable class caption). His 3 Nov meme ("only guy at the 9:30 CrossFit class with all the mums that out-lift you") did 15.3k views and 1.7k interactions, more than every other post in the 30 days to 5 Nov combined. Claude's posts support his memes and must not compete with them: nothing Claude queues goes out between 8:30am and 11:30am except the Monday 7:30am walkthrough Reel (Tue/Thu/Sat 7:30am Reels stopped 2026-11-16).
 - The audience includes about 38k bought followers (Chris, 2026-11-05). Follower count and follower reach mean little. Judge everything on non-follower reach, shares, saves and profile visits/link taps.
 - Reporting: Chris hears from Claude in the Monday report (results, changes made, ideas for him to film or post himself) and when something breaks. Daily runs are otherwise silent.
 - The workout of the week no longer needs approval (Chris, 2026-11-02). It is queued with the core posts.
 
 ## Change log
+- 2026-11-16 (weekly review): Week to 15 Nov: 22 posts, reach 6,380, 116 shares, 13 saves (prev week 23,008 / 1,947 / 53). The drop is Chris's: no breakout meme (best 66 shares vs 1,589). Chris's 4 measured posts earned 115 of 116 shares; Claude's 17 mature posts earned 1 share and 7 saves (same as last week). Non-follower reach, profile visits and link taps are still not in Buffer's data. Chris's static image memes are his most reliable format: 4 posts over two weeks, shares 28/41/51/66 (median 46), vs his video memes 9/12/39/226/1,589 (median 39, all upside from two warm-up-ego clips). Two 6:30pm Stories (13 and 14 Nov) failed in Buffer ("Instagram media cannot be found"); 15 and 16 Nov published fine.
+  - Last week's changes: Change 1 (Tue/Thu/Sat class-moment Reels) failed: 3 of its 8 Reels ran, 0 shares each, median reach 176 vs carousels 185, average watch 2.6 to 3.0s. It cannot reach its keep bar (median 3 shares across 8). Change 2 (tag CTA first on carousels) failed: 1 share across 7 carousels (bar was 5).
+  - Change 1 (EXPERIMENT, 17 to 23 Nov, judged 30 Nov): the 4pm slot (DATE) returns as a single-image text meme card (tools/meme.py, light "meme" look, not the dark coaching look). One community in-joke in one frame, second person, tag CTA. Hypothesis: Chris's static memes share because one joke in one frame is effortless to send; Claude's relatable carousels (0 shares, last 8) failed on format, not topic. Keep if the 7 cards have median shares of at least 3 and at least 15 shares in total (carousels: 1 in 7). Drop if median shares is 0. Anything in between: run one more week with the best-performing topic type.
+  - Change 2: Tue/Thu/Sat 7:30am Reels stop now (trial ended early, see above). Extra evidence (suggestive, n=9): Chris's meme earned median 26 shares on mornings with a 7:30am Reel vs 66 without, so they may also crowd his meme. The Monday workout walkthrough Reel stays. Volume is not cut: Claude feed posts go from 10 to 14 a week.
+  - Change 3: 12:30pm carousels are judged on saves (their job: 7 a week, both weeks), not shares. Caption ends "Save this for your next session." with an optional tag line after it. Target: 10+ saves a week.
 - 2026-11-09 (weekly review): Week to 8 Nov: 29 posts, reach 23,008, 1,947 shares, 53 saves (prev week 6,829 / 111 / 8). Chris's 5 posts earned 1,946 of 1,947 shares and 46 of 53 saves; Claude's 22 mature posts earned 1 share. Non-follower reach, profile visits and link taps are not in Buffer's data, so reach, views and shares are the measures here. Last week's changes: moving the coaching carousel to 12:30pm shows no measurable effect yet (n=3, reach 316/155/132 vs 11am median 180); pausing the 4pm carousel cost nothing (last 4 earned 0 shares).
   - Change 1 (EXPERIMENT, runs to 2026-11-26): Tue/Thu/Sat 7:30am Reels become "class moment" oneliners modelled on Chris's memes: a specific class time plus a specific person or moment, second person ("when you..."), affectionate, 5 to 7 seconds looping. Hypothesis: the relatable class-moment structure, not the clip, drives shares, so a text Reel using it earns shares where coaching Reels did not (last 6 Reels: median shares 0, one Reel earned 7). Keep if the 8 Reels from 10 Nov have median shares of at least 3 and beat the 12:30pm carousels on median shares and reach. Drop (and cut the slot) otherwise. Judge the existing trial only on these 8 Reels.
   - Change 2: 12:30pm carousel captions lead with a tag CTA naming the exact fault ("Tag the training partner who does this.") before the save line. Evidence: 7 carousels earned 1 share and 7 saves; shares are the goal and they earned none. Keep if carousels earn at least 5 shares across the next 7 posts.
@@ -26,13 +31,12 @@ Core, every day:
 - About 9:30am: Chris's meme Reel (his slot; never queue anything for it).
 - 12:30pm: coaching insight carousel (slot DATE-am). Coaching content needs swipe-at-your-own-pace, and saves are its job.
 - 6:30pm: Story tied to the 12:30pm carousel (slot DATE-story).
-- 4:00pm relatable carousel (slot DATE): PAUSED from 2026-11-06. Do not queue it. The weekly review may bring it back only with evidence.
+- 4:00pm: meme card (slot DATE), single image from tools/meme.py. Experiment from 2026-11-17 (Change log 2026-11-16). See "4pm slot: meme card".
 Extras:
 - Mon 5:30am: workout of the week Story (slot DATE-wod).
 - Mon 7:30am: workout walkthrough Reel, timer format (slot DATE-early). Goes with the workout.
-- Tue, Thu, Sat 7:30am: short punchy Reel (slot DATE-early).
 - Wed 8:00pm: "Rate this workout" Story (slot DATE-rate).
-All feed posts on the same day (12:30pm carousel and any 7:30am Reel) must cover different topics.
+All feed posts on the same day (12:30pm carousel, 4pm meme card and any 7:30am Reel) must cover different topics.
 Updated 2026-10-15 after auditing 150 posts: relatable gym-culture carousels and Reels (Apr to Jul)
 had a median reach of about 1,280; long educational posts with site links (Sep to Oct) had about 220.
 
@@ -40,7 +44,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - One sharp coach-level observation per carousel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems, warm-ups, pacing, scaling). One idea per slide, no lecture.
 - Format: tools/carousel.py, 5 to 7 slides: cover hook, 3 to 5 content slides (tag, title under ~40 characters, body under ~120), end slide with a CTA. Render to posts/DATE-am/ and queue {"images": [slide URLs in order], "proof": false}.
 - The hook must be specific and land on the cover.
-- End the caption with a tag CTA naming the exact fault ("Tag the training partner who does this."), then "Save this for your next session." on its own line. Tag CTA first; shares are the goal.
+- End the caption with "Save this for your next session." Optionally add one tag line after it naming the exact fault ("Tag the training partner who does this."). Saves are this slot's job (from 2026-11-16); shares come from the 4pm meme card and Chris's memes.
 - Rotate themes across the week so no theme repeats within 7 days. Don't repeat the topic of that day's 7:30am Reel.
 
 ## Reels: short and punchy (from 2026-10-28)
@@ -51,14 +55,14 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   3. flash: "Pause on a random frame" / "Screenshot" list of 6 to 10 types or habits, 0.6s each.
   4. counter: a number ticks to each value (splits, reps, rounds, kilos), then one coaching punchline.
   5. versus: this or that, 4 to 6 pairs.
-- Until 2026-11-26 the Tue/Thu/Sat Reels are all oneliners (experiment), so the format-variety rule is suspended for them; Monday stays timer. Hooks and topics follow the same rules as feed posts (different topic from that day's 12:30pm carousel).
+- From 2026-11-16 the only scheduled Reel is Monday's timer walkthrough. The other formats stay available for one-off Reels (slot DATE-reel) if a weekly review brings them back. Hooks and topics follow the same rules as feed posts.
 - Old long-beat text Reels (tools/reel.py) are retired. Don't use them.
 
-## Extra 7:30am Reels (slot DATE-early): Mon, Tue, Thu, Sat
-- Tue/Thu/Sat Reels are on trial until 2026-11-26 (see Change log 2026-11-09). All three are "class moment" oneliners: a specific class time plus a specific person or moment, in second person ("when you..."), affectionate, 5 to 7 seconds, looping. Model them on Chris's best memes (warm-up ego, being out-lifted by someone unexpected, the whiteboard). Never first-person events as Chris's, never mean about beginners, bodies or injuries. Each must differ in topic from that day's 12:30pm carousel and from Chris's recent memes.
+## Monday 7:30am Reel (slot DATE-early)
+- Tue/Thu/Sat 7:30am Reels STOPPED from 2026-11-16 (Change log). Do not queue DATE-early on Tue, Thu or Sat.
 - Rendered to posts/DATE-early/reel.mp4 with tools/punchy_reel.py, caption ops/captions/DATE-early.txt. Caption: hook, at most 2 short lines, then a permitted CTA ("Save this for your next session." only when the Reel teaches something).
 - Mon: "This week's workout" in the timer format: the workout of the week told as a pacing plan, minute by minute (e.g. "0:00 Steady. Not a sprint." "6:00 Break the pull-ups early." "13:00 Now go."). Label "This week's workout". Hook names the workout.
-- Tue, Thu, Sat: a class-moment oneliner (see above) until 2026-11-26. Movement-of-the-week teaching (setup, common mistake, scaled version) moves to the 12:30pm carousel as a theme when wanted.
+- Movement-of-the-week teaching (setup, common mistake, scaled version) lives in the 12:30pm carousel as a theme when wanted.
 
 ## Monday 5:30am: workout of the week Story
 - One workout a week, Mondays only. Not daily: Chris's full programming stays in his product, so never post a week plan or a program, only this one session.
@@ -71,7 +75,16 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   - One "feel" line with the intended stimulus and a target time or score, one "Scale:" line, and "Reply with your time." (or "your score" / "your rounds").
 - No approval needed (from 2026-11-02). The Sunday evening run writes the workout, renders the card and the 7:30am walkthrough Reel, checks both, and queues ops/queue/DATE-wod.json and ops/queue/DATE-early.json (caption ops/captions/DATE-early.txt) with the core Monday posts. The workout rules above still apply in full.
 
-## 4pm slot: weekly rotation (PAUSED from 2026-11-06, kept for reference)
+## 4pm slot: meme card, every day (EXPERIMENT from 2026-11-17)
+- One 1080x1350 image from tools/meme.py (read its docstring), rendered to posts/DATE/01.png from specs/DATE.json and queued as ops/queue/DATE.json ({"images": [URL], "proof": false}) with caption ops/captions/DATE.txt. Sample: specs/samples/meme.png.
+- One community in-joke, readable in 2 seconds, that someone sends to a training partner. 1 to 3 short lines, 25 words max, the last line is the punchline. Optional small "tag" line ("Tag the warm-up guy." / "Which one are you?").
+- Model on Chris's best memes: warm-up ego (his two biggest posts, 1,589 and 226 shares), being out-lifted or out-paced by someone unexpected, the whiteboard and the time cap, "every box has one" archetypes, coach-speak decoded ("last round" said three times), partner WOD politics. Specific class times and specific people ("the 6am rower", "the 9:30 mums") beat generic.
+- Second person or "every box"/"we all" only. Never "me"/"I" lines (they would read as Chris's own events). Affectionate: the joke is on the situation or on "you", never on beginners, bodies, injuries, age or a named person or gym. No health scare jokes.
+- Different topic from that day's 12:30pm carousel and from Chris's memes of the last 7 days (check the weekly summary). No film or TV references (Chris's lane).
+- Caption: the card's first line as the hook, at most one more short line, then a tag CTA ("Tag a training partner." or a specific one: "Tag your 6am rowing rival."). No save line. Log it in ops/hooks.log as DATE (standard or provocative).
+- Rotate joke types across the week so no type repeats within 3 days.
+
+## Old 4pm weekly rotation (retired, kept for reference)
 - Mon: Relatable gym culture carousel ("that person in class", coach's-eye humour).
 - Tue: Relatable gym culture carousel.
 - Wed: Second-person story carousel ("You walk in at 5:05am. The whiteboard says..."). Never invent first-person events as if they happened to Chris.
@@ -116,7 +129,7 @@ The hook is the first line of the caption AND the first slide or Reel frame. It 
 ## Hard brand rules (never break)
 - No emojis anywhere. No hashtags. No em dashes (use a period or comma).
 - "CrossFit" is allowed on Instagram (never in the Kenko app); no affiliation claims or logos.
-- Faceless: no people, no faces. Text-on-dark graphics only.
+- Faceless: no people, no faces. Text graphics only: dark look (#0a0a0a) for coaching, Stories and Reels; the light meme look (tools/meme.py) for the 4pm meme card only.
 - CTAs: "Follow for more" / "Tag a friend" / "Tag a training partner". Never "Download".
 - No motivational, mindset, "new week energy" or inspirational quote posts.
 - Humour is affectionate, never mean about beginners, bodies or injuries.
@@ -126,10 +139,12 @@ The hook is the first line of the caption AND the first slide or Reel frame. It 
 - Lead with non-follower reach, shares, saves, profile visits and external link taps. Followers are inflated by bought accounts, so follower count and follower reach are not success measures.
 - Compare Chris's meme Reels (his posts, no queue file) against Claude's posts every week, and report the gap.
 - In the Monday report, give Chris 7 meme caption ideas for the week, modelled on his best memes from the previous week (relatable class moments, specific times and people, "when you..." setups). Ideas only; he picks the clip and posts it.
-- 2026-11-26: decide on the Tue/Thu/Sat Reel trial (keep only if they beat the 12:30pm carousels on median shares and non-follower reach).
+- 2026-11-30: judge the 4pm meme-card experiment on the 7 cards from 17 to 23 Nov (Change log 2026-11-16).
+- Check failed posts with the diagnose-posts Action (read-only) when a scheduled post is missing from the weekly summary.
 
 ## Look
 - 1080x1350 slides, #0a0a0a background, white text, #00FF87 accent, Inter.
+- Meme card: tools/meme.py (1080x1350, #f3f1ec background, near-black Inter ExtraBold, small green tag mark).
 - Carousels: tools/carousel.py. Reels: tools/punchy_reel.py (1080x1920 MP4). Stories: tools/story.py (1080x1920 PNG). Workout card: tools/workout.py (1080x1920 PNG). Single cards: tools/render.py.
 
 ## Files (all under ops/ in kasamasuki/kenko-content; this repo is public, so nothing secret goes here)

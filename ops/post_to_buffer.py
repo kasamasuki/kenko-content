@@ -2,12 +2,12 @@
 """Schedule one Instagram feed post (single image, carousel or Reel) on Buffer.
 Usage: post_to_buffer.py SLOT captions/SLOT.txt IMAGE_URL [IMAGE_URL ...] [--proof] [--dry-run]
        post_to_buffer.py SLOT captions/SLOT.txt VIDEO_URL.mp4 [--dry-run]   (Reel, also shared to feed)
-SLOT is YYYY-MM-DD for the 4pm post (paused from 2026-11-06) or YYYY-MM-DD-am for the 12:30pm coaching carousel (Melbourne time).
+SLOT is YYYY-MM-DD for the 4pm meme card (single image, tools/meme.py, from 2026-11-17) or YYYY-MM-DD-am for the 12:30pm coaching carousel (Melbourne time).
 SLOT YYYY-MM-DD-story is the daily Story (6:30pm; 1 to 10 images or one .mp4; no caption, since a
 Story caption forces Buffer into manual notification publishing).
 SLOT YYYY-MM-DD-wod is the Monday workout-of-the-week Story (5:30am; same rules as -story).
 SLOT YYYY-MM-DD-rate is the Wednesday "Rate this workout" Story (8:00pm; same rules as -story).
-SLOT YYYY-MM-DD-early is the extra 7:30am Reel (Mon workout walkthrough, Tue/Thu/Sat movement of the week; needs a caption). An extra one-off Reel uses YYYY-MM-DD-reel and needs --due=HH:MM (Melbourne); --due overrides any slot's time.
+SLOT YYYY-MM-DD-early is the extra 7:30am Reel (Mon workout walkthrough only from 2026-11-16; needs a caption). An extra one-off Reel uses YYYY-MM-DD-reel and needs --due=HH:MM (Melbourne); --due overrides any slot's time.
 Pass slide URLs in order for a carousel (max 10). --proof allows a kenkoperformance.com mention.
 Reads the API key from the BUFFER_KEY environment variable (a GitHub Actions secret),
 falling back to buffer_key.txt next to this script. Logs to posted.log
