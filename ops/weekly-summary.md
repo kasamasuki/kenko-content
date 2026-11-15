@@ -1,37 +1,30 @@
-# Weekly summary (2026-11-08)
+# Weekly summary (2026-11-15)
 
-- Posts: 29. Reach 23008 total, 793 average. Shares 1947. Saves 53.
-- Best: Tue 03 Nov "They all keep asking to warm up with my working weight." (reach 12523, shares 1589, saves 30)
-- Worst: Sun 08 Nov "(no caption)" (reach 0, shares 0, saves 0)
+- Posts: 22. Reach 6380 total, 290 average. Shares 116. Saves 13.
+- Best: Tue 10 Nov "Nobody: … Me after 3 classes, lining up next to the head coach for the" (reach 1491, shares 12, saves 3)
+- Worst: Sun 15 Nov "Cleans, rows, burpees. The burpees are your score." (reach 0, shares 0, saves 0)
 
 | Sent (Melbourne) | Hook | Media | Reach | Shares | Saves | Other metrics |
 |---|---|---|---|---|---|---|
-| Mon 02 Nov 11:02 | Spinning faster won't fix your double unders. | image | 194 | 0 | 0 | comments=0, engagementRate=2.58, follows=0, reactions=5, views=472 |
-| Mon 02 Nov 16:01 | Mid-workout lines. We all know what they mean. | image | 221 | 0 | 0 | comments=0, engagementRate=2.71, follows=0, reactions=6, views=539 |
-| Mon 02 Nov 18:30 | (no caption) | image | 339 | 0 | 0 | comments=1, engagementRate=0.59, reactions=2, views=379 |
-| Tue 03 Nov 07:31 | You don't need a new program. | video | 91 | 0 | 0 | averageTimeWatched=2.51, comments=0, engagementRate=1.1, reactions=1, totalTimeWatched=4.15, views=135 |
-| Tue 03 Nov 11:02 | Wall balls are a squat, not a throw. | image | 550 | 1 | 4 | comments=2, engagementRate=3.27, follows=0, reactions=10, views=1221 |
-| Tue 03 Nov 16:02 | Coach: "Any questions?" Silence. "3, 2, 1, go." | image | 210 | 0 | 0 | comments=0, engagementRate=1.43, follows=0, reactions=3, views=536 |
-| Tue 03 Nov 18:30 | (no caption) | image | 296 | 0 | 0 | comments=0, engagementRate=0.69, reactions=2, views=334 |
-| Wed 04 Nov 08:12 | They all keep asking to warm up with my working weight. | video | 12523 | 1589 | 30 | averageTimeWatched=10.12, comments=2, engagementRate=15.04, reactions=255, totalTimeWatched=2182.26, views=17617 |
-| Wed 04 Nov 11:02 | Stop squatting your kettlebell swings. | image | 165 | 0 | 0 | comments=0, engagementRate=1.21, follows=0, reactions=2, views=402 |
-| Wed 04 Nov 16:01 | You lost count in round three. Now what? | image | 117 | 0 | 0 | comments=0, engagementRate=1.71, follows=0, reactions=2, views=306 |
-| Wed 04 Nov 18:30 | (no caption) | image | 203 | 0 | 0 | comments=0, engagementRate=0.51, reactions=1, views=240 |
-| Wed 04 Nov 20:02 | (no caption) | image | 162 | 0 | 0 | comments=0, engagementRate=0, reactions=0, views=192 |
-| Thu 05 Nov 07:31 | Pause on a random frame. That's your gym bag. | video | 211 | 0 | 0 | averageTimeWatched=4.19, comments=0, engagementRate=0.95, reactions=2, totalTimeWatched=15.31, views=281 |
-| Thu 05 Nov 11:03 | You're not slow. Your transitions are. | image | 124 | 0 | 0 | comments=0, engagementRate=0.81, follows=0, reactions=1, views=323 |
-| Thu 05 Nov 13:14 | Every box has at least one of these people. Some boxes are run entirel | image | 1048 | 41 | 3 | comments=3, engagementRate=10.88, follows=0, reactions=63, views=2277 |
-| Thu 05 Nov 16:01 | A 2.5kg PR. Which one are you? | image | 157 | 0 | 0 | comments=0, engagementRate=1.91, follows=0, reactions=3, views=360 |
-| Thu 05 Nov 18:30 | (no caption) | image | 279 | 0 | 0 | comments=0, engagementRate=0.37, reactions=1, views=316 |
-| Fri 06 Nov 07:29 | Well.. if I’m not winning the WOD I’ll definitely win the warm up.  Ta | video | 2104 | 226 | 7 | averageTimeWatched=5.38, comments=2, engagementRate=14.02, reactions=58, totalTimeWatched=196.28, views=3049 |
-| Fri 06 Nov 12:31 | Sucking your belly in isn't bracing. | image | 316 | 0 | 2 | comments=2, engagementRate=2.85, follows=0, reactions=5, views=689 |
-| Fri 06 Nov 18:31 | (no caption) | image | 335 | 0 | 0 | comments=0, engagementRate=0.32, reactions=1, views=389 |
-| Sat 07 Nov 07:31 | Sprint the first 400. Watch lap 4. | video | 241 | 0 | 0 | averageTimeWatched=5.6, comments=0, engagementRate=1.24, reactions=3, totalTimeWatched=23.53, views=343 |
-| Sat 07 Nov 09:01 | CrossFit doesn’t give you options. It gives you a whiteboard, a timer, | image | 1150 | 51 | 5 | comments=4, engagementRate=9.39, follows=0, reactions=47, views=2139 |
-| Sat 07 Nov 12:31 | Your third set failed in the rest period. | image | 155 | 0 | 1 | comments=0, engagementRate=2.58, follows=0, reactions=3, views=370 |
-| Sat 07 Nov 18:30 | (no caption) | image | 348 | 0 | 0 | comments=1, engagementRate=0.6, reactions=2, views=397 |
-| Sun 08 Nov 10:10 | I still tried to keep up.  Does anyone know the number of a good chiro | video | 1091 | 39 | 1 | averageTimeWatched=5.43, comments=1, engagementRate=6.23, reactions=26, totalTimeWatched=101.88, views=1409 |
-| Sun 08 Nov 12:31 | Your grip isn't weak. You never let go. | image | 132 | 0 | 0 | comments=0, engagementRate=1.52, follows=0, reactions=2, views=323 |
-| Sun 08 Nov 18:30 | (no caption) | image | 246 | 0 | 0 | comments=0, engagementRate=0, reactions=0, views=287 |
-| Mon 09 Nov 05:31 | (no caption) | image | 0 | 0 | 0 | - |
-| Mon 09 Nov 07:31 | Front squats, wall balls, pull-ups. 16 minute EMOM. | video | 0 | 0 | 0 | - |
+| Mon 09 Nov 12:31 | You're not unfit. You're holding your breath. | image | 215 | 0 | 1 | comments=0, engagementRate=1.86, follows=0, reactions=3, views=501 |
+| Mon 09 Nov 18:30 | (no caption) | image | 294 | 0 | 0 | comments=0, engagementRate=0.35, reactions=1, views=319 |
+| Tue 10 Nov 07:31 | 6am class. When you write 7 rounds on the board. | video | 176 | 0 | 0 | averageTimeWatched=2.56, comments=0, engagementRate=0, reactions=0, totalTimeWatched=7.54, views=230 |
+| Tue 10 Nov 11:59 | Nobody: … Me after 3 classes, lining up next to the head coach for the | video | 1491 | 12 | 3 | averageTimeWatched=9.16, comments=0, engagementRate=2.21, reactions=18, totalTimeWatched=235.56, views=2268 |
+| Tue 10 Nov 12:31 | The bar didn't move. Your hips did. | image | 185 | 0 | 0 | comments=0, engagementRate=1.08, follows=0, reactions=2, views=403 |
+| Tue 10 Nov 18:30 | (no caption) | image | 345 | 0 | 0 | comments=1, engagementRate=0.31, reactions=1, views=390 |
+| Wed 11 Nov 08:47 | Rose said there wasn’t room on the door. Your coach says there’s no ro | image | 669 | 66 | 2 | comments=3, engagementRate=17.04, follows=0, reactions=43, views=1502 |
+| Wed 11 Nov 12:31 | Your press isn't stuck. Your ribs are. | image | 194 | 1 | 2 | comments=0, engagementRate=2.58, follows=0, reactions=2, views=473 |
+| Wed 11 Nov 18:30 | (no caption) | image | 232 | 0 | 0 | comments=0, engagementRate=0.47, reactions=1, views=254 |
+| Wed 11 Nov 20:02 | (no caption) | image | 83 | 0 | 0 | comments=0, engagementRate=1.2, reactions=1, views=98 |
+| Thu 12 Nov 07:31 | 6am class. When you row next to the fast one. | video | 196 | 0 | 0 | averageTimeWatched=3.02, comments=0, engagementRate=1.53, reactions=3, totalTimeWatched=10.18, views=287 |
+| Thu 12 Nov 11:17 | Did they run home? | video | 321 | 9 | 1 | averageTimeWatched=6.13, comments=0, engagementRate=5.3, reactions=7, totalTimeWatched=33.31, views=534 |
+| Thu 12 Nov 12:31 | Your thruster is two lifts. Make it one. | image | 150 | 0 | 1 | comments=0, engagementRate=4.67, follows=0, reactions=5, views=362 |
+| Thu 12 Nov 18:30 | (no caption) | image | 318 | 0 | 0 | comments=0, engagementRate=0, reactions=0, views=365 |
+| Fri 13 Nov 12:00 | Rich in community. Poor in cartilage. Which one are you? | image | 583 | 28 | 0 | comments=0, engagementRate=8.75, follows=0, reactions=22, views=1240 |
+| Fri 13 Nov 12:32 | We all know someone who never scales. | image | 109 | 0 | 0 | comments=0, engagementRate=1.83, follows=0, reactions=2, views=258 |
+| Sat 14 Nov 07:31 | Saturday partner WOD. When your partner says "You go first." | video | 123 | 0 | 0 | averageTimeWatched=3.02, comments=0, engagementRate=0.81, reactions=1, totalTimeWatched=6.44, views=178 |
+| Sat 14 Nov 12:31 | You're not jumping higher. You're tucking higher. | image | 44 | 0 | 0 | comments=0, engagementRate=0, follows=0, reactions=0, views=104 |
+| Sun 15 Nov 12:31 | Toes-to-bar starts in your lats, not your abs. | image | 205 | 0 | 3 | comments=0, engagementRate=4.88, follows=0, reactions=7, views=449 |
+| Sun 15 Nov 18:30 | (no caption) | image | 308 | 0 | 0 | comments=0, engagementRate=0.65, reactions=2, views=368 |
+| Mon 16 Nov 05:31 | (no caption) | image | 139 | 0 | 0 | comments=0, engagementRate=0.72, reactions=1, views=160 |
+| Mon 16 Nov 07:30 | Cleans, rows, burpees. The burpees are your score. | video | 0 | 0 | 0 | - |
