@@ -1,0 +1,9 @@
+{"format": "pace", "label": "How to pace it",
+ "hook": ["Most people blow this", "WOD in round one."],
+ "workout": {"kicker": "4 rounds for time", "lines": ["400 m run", "20 wall balls, 9/6 kg", "12 burpee box jump-overs"], "cap": "Time cap: 14:00"},
+ "headline": ["Pace it like this:", "2:55 a round."], "note": "Example RX split. Target 10:30 to 12:15",
+ "seg_names": ["Run 400 m", "20 wall balls", "12 box jump-overs"],
+ "rows": [{"label": "R1", "segs": [100, 35, 40]}, {"label": "R2", "segs": [100, 35, 40]}, {"label": "R3", "segs": [100, 35, 40]}, {"label": "R4", "segs": [100, 35, 40]}],
+ "rules_title": "Three rules.",
+ "rules": ["Runs 1:35 to 1:45. Not a sprint.", "Wall balls unbroken, or 12 + 8.", "No standing rest on the box."],
+ "end": ["Pacing like this", "comes with every workout."], "end_sub": ["Daily program. 7 days free.", "Link in bio."]}

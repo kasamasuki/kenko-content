@@ -1,0 +1,9 @@
+{"format": "pace", "label": "How to pace it",
+ "hook": ["Most people blow Fran", "on the first 21."],
+ "workout": {"kicker": "Fran, for time", "lines": ["21-15-9", "Thrusters, 43/30 kg", "Pull-ups"], "cap": "Time cap: 10:00"},
+ "headline": ["Pace it like this:", "under 4:00 RX."], "note": "Example RX split. Target 3:00 to 5:00",
+ "seg_names": ["Thrusters", "Pull-ups", "Transitions"],
+ "rows": [{"label": "21", "segs": [50, 35, 10]}, {"label": "15", "segs": [40, 30, 10]}, {"label": "9", "segs": [22, 18, 5]}],
+ "rules_title": "Three rules.",
+ "rules": ["Break the 21 thrusters at 12 + 9.", "Pull-ups in quick sets. Never to failure.", "Hands on the bar within 5 seconds."],
+ "end": ["Pacing like this", "comes with every workout."], "end_sub": ["Daily program. 7 days free.", "Link in bio."]}

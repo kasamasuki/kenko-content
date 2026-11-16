@@ -3,16 +3,18 @@
 ## Manager mandate (from 2026-11-02)
 Chris has handed the account to Claude as social media manager. The goal is reach (and the shares that drive it).
 - Claude decides content, slots, posting times, volume, formats, rotation, hook mix and the look, and edits this playbook itself. The weekly review (Mondays) is where changes are made, each one backed by numbers and logged in the Change log below.
-- Fixed, never changed by Claude: no emojis, hashtags or em dashes; CTAs never "Download"; no motivational or quote posts; humour never mean about beginners, bodies or injuries; no health scare claims or fake stats; never post photos or video of real people (Claude has none) or anything imitating another account; never invent first-person events as Chris's; only proof posts mention kenkoperformance.com; one workout a week, never a program.
+- Fixed, never changed by Claude: no emojis, hashtags or em dashes; CTAs never "Download"; no motivational or quote posts; humour never mean about beginners, bodies or injuries; no health scare claims or fake stats; never post photos or video of real people (Claude has none) or anything imitating another account; never invent first-person events as Chris's; only proof posts mention kenkoperformance.com (the pacing Reel's end card may say "Link in bio" on screen, never in the caption); one workout of Kenko's own a week, never a program (pacing Reels use public named benchmarks, not Kenko programming).
 - Changeable on evidence: "faceless, text-on-dark only", colours and layout, the 4pm rotation, slot times and how many posts a day.
 - The word "CrossFit" is allowed on Instagram from 2026-11-05 (Chris: the CrossFit branding ban applies only inside the Kenko app). Use it where it is how the audience describes itself ("the 6am CrossFit class", "CrossFit coaches"). Never imply Kenko is affiliated with or endorsed by CrossFit, and never use CrossFit logos.
 - Chris's own posts (anything in Buffer's history without an ops/queue file, e.g. 30 Oct "gym buddy eye contact", 27 Oct "Coach: have you been doing your mobility?") are the benchmark: in the week to 1 Nov two of them earned 85 of 111 shares. Study what they do and borrow it.
 - From 2026-11-06 Chris posts one meme Reel a day himself at about 9:30am (film or TV clip with a relatable class caption). His 3 Nov meme ("only guy at the 9:30 CrossFit class with all the mums that out-lift you") did 15.3k views and 1.7k interactions, more than every other post in the 30 days to 5 Nov combined. Claude's posts support his memes and must not compete with them: nothing Claude queues goes out between 8:30am and 11:30am except the Monday 7:30am walkthrough Reel (Tue/Thu/Sat 7:30am Reels stopped 2026-11-16).
 - The audience includes about 38k bought followers (Chris, 2026-11-05). Follower count and follower reach mean little. Judge everything on non-follower reach, shares, saves and profile visits/link taps.
+- Goal (Chris, 2026-11-16): get CrossFitters worldwide onto the Kenko app. The account is not promoting Chris's Melbourne gym. Followers who matter are real CrossFitters anywhere; the Instagram Insights audit (16 Nov) shows recent real followers are mostly overseas and follower activity peaks 9am to 12pm Melbourne (US evening).
 - Reporting: Chris hears from Claude in the Monday report (results, changes made, ideas for him to film or post himself) and when something breaks. Daily runs are otherwise silent.
 - The workout of the week no longer needs approval (Chris, 2026-11-02). It is queued with the core posts.
 
 ## Change log
+- 2026-11-16 (Chris asked for it): the daily 12:30pm slot becomes a benchmark pacing Reel (tools/punchy_reel.py, format pace) in place of the text coaching carousel. Evidence (Instagram Insights, 30 days to 16 Nov): every one of the 10 least-viewed posts was an automated text post (143 to 286 views, 0 to 7 shares); text carousels went 88 to 100% to followers; meme Reels went 43 to 86% to non-followers. The pacing format is a moving Reel built on a named workout CrossFitters search for, and its end card points to the app trial. EXPERIMENT, judged 30 Nov on the first 7: keep if median views reach 1,000 and median shares reach 5 (text carousels: about 200 views, 0 shares); drop back to carousels if median views stay under 400. Chris is also testing two hand-made trial Reels (an app walkthrough and the same pacing format) this week.
 - 2026-11-16 (weekly review): Week to 15 Nov: 22 posts, reach 6,380, 116 shares, 13 saves (prev week 23,008 / 1,947 / 53). The drop is Chris's: no breakout meme (best 66 shares vs 1,589). Chris's 4 measured posts earned 115 of 116 shares; Claude's 17 mature posts earned 1 share and 7 saves (same as last week). Non-follower reach, profile visits and link taps are still not in Buffer's data. Chris's static image memes are his most reliable format: 4 posts over two weeks, shares 28/41/51/66 (median 46), vs his video memes 9/12/39/226/1,589 (median 39, all upside from two warm-up-ego clips). Two 6:30pm Stories (13 and 14 Nov) failed in Buffer ("Instagram media cannot be found"); 15 and 16 Nov published fine.
   - Last week's changes: Change 1 (Tue/Thu/Sat class-moment Reels) failed: 3 of its 8 Reels ran, 0 shares each, median reach 176 vs carousels 185, average watch 2.6 to 3.0s. It cannot reach its keep bar (median 3 shares across 8). Change 2 (tag CTA first on carousels) failed: 1 share across 7 carousels (bar was 5).
   - Change 1 (EXPERIMENT, 17 to 23 Nov, judged 30 Nov): the 4pm slot (DATE) returns as a single-image text meme card (tools/meme.py, light "meme" look, not the dark coaching look). One community in-joke in one frame, second person, tag CTA. Hypothesis: Chris's static memes share because one joke in one frame is effortless to send; Claude's relatable carousels (0 shares, last 8) failed on format, not topic. Keep if the 7 cards have median shares of at least 3 and at least 15 shares in total (carousels: 1 in 7). Drop if median shares is 0. Anything in between: run one more week with the best-performing topic type.
@@ -29,18 +31,28 @@ Chris has handed the account to Claude as social media manager. The goal is reac
 Core strategy (from 2026-11-06): Chris's meme Reel at about 9:30am (posted by him, not queued here), then one Claude feed post and one Story every day. Extra weekly posts sit on top and never replace a core slot. All Claude posts are scheduled through Buffer the evening before.
 Core, every day:
 - About 9:30am: Chris's meme Reel (his slot; never queue anything for it).
-- 12:30pm: coaching insight carousel (slot DATE-am). Coaching content needs swipe-at-your-own-pace, and saves are its job.
-- 6:30pm: Story tied to the 12:30pm carousel (slot DATE-story).
+- 12:30pm: benchmark pacing Reel (slot DATE-am), from 2026-11-17. See "12:30pm slot: benchmark pacing Reel". 12:30pm Melbourne is 8:30pm in New York, inside the followers' peak.
+- 6:30pm: Story tied to the 12:30pm pacing Reel (slot DATE-story).
 - 4:00pm: meme card (slot DATE), single image from tools/meme.py. Experiment from 2026-11-17 (Change log 2026-11-16). See "4pm slot: meme card".
 Extras:
 - Mon 5:30am: workout of the week Story (slot DATE-wod).
 - Mon 7:30am: workout walkthrough Reel, timer format (slot DATE-early). Goes with the workout.
 - Wed 8:00pm: "Rate this workout" Story (slot DATE-rate).
-All feed posts on the same day (12:30pm carousel, 4pm meme card and any 7:30am Reel) must cover different topics.
+All feed posts on the same day (12:30pm pacing Reel, 4pm meme card and any 7:30am Reel) must cover different topics.
 Updated 2026-10-15 after auditing 150 posts: relatable gym-culture carousels and Reels (Apr to Jul)
 had a median reach of about 1,280; long educational posts with site links (Sep to Oct) had about 220.
 
-## 12:30pm slot: coaching insight carousel, every day
+## 12:30pm slot: benchmark pacing Reel, every day (from 2026-11-17)
+- One Reel from tools/punchy_reel.py, format "pace" (read the docstring; samples specs/samples/pace.json and pace-fran.json). Spec specs/DATE-am.json, render posts/DATE-am/reel.mp4, queue ops/queue/DATE-am.json as {"video": URL}, caption ops/captions/DATE-am.txt. 15 to 20 seconds, checked with ffprobe.
+- The workout is a public, named benchmark CrossFitters search for: the Girls (Fran, Grace, Helen, Diane, Elizabeth, Annie, Karen, Cindy, Jackie, Isabel, Nancy, Kelly and so on), well-known Hero WODs that fit in 6 rows (DT, Randy, Nate and similar; never Murph-length workouts) and past CrossFit Open workouts by name (for example 24.1). Never Kenko's own programming. Use the standard published reps and Rx loads (kg, male/female). No repeat within 30 days: check specs/*-am.json.
+- Accuracy is the whole value. Give an Rx target range an experienced coach would defend for a strong intermediate to advanced athlete, label it "Example RX split. Target X to Y", and make the rows add up to a total inside that range (the tool shows the running total). Segment times must be realistic and get shorter as reps fall. No fake stats: the hook is a coaching observation ("Most people blow Fran on the first 21."), never a number about people.
+- Rows: rounds (R1 to R4), rep schemes (21, 15, 9) or time blocks for AMRAPs and long workouts (0 to 5 min, 5 to 10 min). 1 to 6 rows, 1 to 4 segments (movements, plus "Transitions" when they matter).
+- Three rules, each one sentence a coach would say at the whiteboard: where to break sets, what pace to hold, where the workout is lost.
+- End card always: "Pacing like this" / "comes with every workout." and end_sub ["Daily program. 7 days free.", "Link in bio."]. This is the only place "Link in bio" appears; never in the caption (post_to_buffer.py refuses it).
+- Caption: hook as line one (10 words max, names the workout), the workout in 1 to 3 short lines, then "What's your time? Drop it below." Under 60 words. No site links. Log it in ops/hooks.log as DATE-am.
+- Check: one frame from each scene at 70% of its duration (contact sheet), plus the final frame. Fix overflow, a hook that wraps into a lone word, or a row label that collides with the bar total.
+
+## Old 12:30pm slot: coaching insight carousel (retired 2026-11-17, kept for reference)
 - One sharp coach-level observation per carousel (form breakdowns, plateau causes, recovery mistakes, programming logic such as deloads, retests and energy systems, warm-ups, pacing, scaling). One idea per slide, no lecture.
 - Format: tools/carousel.py, 5 to 7 slides: cover hook, 3 to 5 content slides (tag, title under ~40 characters, body under ~120), end slide with a CTA. Render to posts/DATE-am/ and queue {"images": [slide URLs in order], "proof": false}.
 - The hook must be specific and land on the cover.
@@ -55,7 +67,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
   3. flash: "Pause on a random frame" / "Screenshot" list of 6 to 10 types or habits, 0.6s each.
   4. counter: a number ticks to each value (splits, reps, rounds, kilos), then one coaching punchline.
   5. versus: this or that, 4 to 6 pairs.
-- From 2026-11-16 the only scheduled Reel is Monday's timer walkthrough. The other formats stay available for one-off Reels (slot DATE-reel) if a weekly review brings them back. Hooks and topics follow the same rules as feed posts.
+- Six formats now: the five above plus "pace" (benchmark pacing Reel), which has its own rules under "12:30pm slot: benchmark pacing Reel" and runs 15 to 20 seconds. From 2026-11-17 the scheduled Reels are the daily 12:30pm pacing Reel and Monday's timer walkthrough. The other formats stay available for one-off Reels (slot DATE-reel) if a weekly review brings them back. Hooks and topics follow the same rules as feed posts.
 - Old long-beat text Reels (tools/reel.py) are retired. Don't use them.
 
 ## Monday 7:30am Reel (slot DATE-early)
@@ -95,7 +107,7 @@ had a median reach of about 1,280; long educational posts with site links (Sep t
 - Proof post: about 1 in 20 posts (roughly one every 10 days) replaces a 12:30pm slot with a real product artifact, only when genuine data exists. Only proof posts may mention kenkoperformance.com (use --proof).
 
 ## 6:30pm Story, every day
-- One 1080x1920 card from tools/story.py, queued as ops/queue/DATE-story.json ({"images": [URL]}) with NO caption file.
+- One 1080x1920 card from tools/story.py, queued as ops/queue/DATE-story.json ({"images": [URL]}) with NO caption file. From 2026-11-17 it follows up the 12:30pm pacing Reel: "What's your [workout] time?" with 3 or 4 lettered time bands ("A. Under 4:00", "B. 4 to 6", "C. 6+", "D. Not doing that").
 - Buffer auto-publishes Stories only without stickers, polls, links, music or captions, so the card itself asks for a DM reply: a quick question tied to that day's 12:30pm carousel ("Which one are you?", "Which fault is yours?") with 2 to 4 lettered options and "Reply with A, B or C." DM replies are the engagement signal we want.
 - Same brand rules. Keep it light and quick to answer. No motivational quotes.
 
@@ -130,7 +142,7 @@ The hook is the first line of the caption AND the first slide or Reel frame. It 
 - No emojis anywhere. No hashtags. No em dashes (use a period or comma).
 - "CrossFit" is allowed on Instagram (never in the Kenko app); no affiliation claims or logos.
 - Faceless: no people, no faces. Text graphics only: dark look (#0a0a0a) for coaching, Stories and Reels; the light meme look (tools/meme.py) for the 4pm meme card only.
-- CTAs: "Follow for more" / "Tag a friend" / "Tag a training partner". Never "Download".
+- CTAs: "Follow for more" / "Tag a friend" / "Tag a training partner" / "What's your time? Drop it below.", plus the pacing Reel's on-screen end card. Never "Download".
 - No motivational, mindset, "new week energy" or inspirational quote posts.
 - Humour is affectionate, never mean about beginners, bodies or injuries.
 - Premium, confident, no-fluff tone. Coach talking to athletes.
@@ -139,13 +151,14 @@ The hook is the first line of the caption AND the first slide or Reel frame. It 
 - Lead with non-follower reach, shares, saves, profile visits and external link taps. Followers are inflated by bought accounts, so follower count and follower reach are not success measures.
 - Compare Chris's meme Reels (his posts, no queue file) against Claude's posts every week, and report the gap.
 - In the Monday report, give Chris 7 meme caption ideas for the week, modelled on his best memes from the previous week (relatable class moments, specific times and people, "when you..." setups). Ideas only; he picks the clip and posts it.
+- 2026-11-30: judge the 12:30pm pacing Reel experiment on its first 7 Reels (Change log 2026-11-16, Chris). Lead with views, non-follower share, shares and link taps.
 - 2026-11-30: judge the 4pm meme-card experiment on the 7 cards from 17 to 23 Nov (Change log 2026-11-16).
 - Check failed posts with the diagnose-posts Action (read-only) when a scheduled post is missing from the weekly summary.
 
 ## Look
 - 1080x1350 slides, #0a0a0a background, white text, #00FF87 accent, Inter.
 - Meme card: tools/meme.py (1080x1350, #f3f1ec background, near-black Inter ExtraBold, small green tag mark).
-- Carousels: tools/carousel.py. Reels: tools/punchy_reel.py (1080x1920 MP4). Stories: tools/story.py (1080x1920 PNG). Workout card: tools/workout.py (1080x1920 PNG). Single cards: tools/render.py.
+- Carousels: tools/carousel.py. Reels: tools/punchy_reel.py (1080x1920 MP4; the pacing Reel is its "pace" format). Stories: tools/story.py (1080x1920 PNG). Workout card: tools/workout.py (1080x1920 PNG). Single cards: tools/render.py.
 
 ## Files (all under ops/ in kasamasuki/kenko-content; this repo is public, so nothing secret goes here)
 - captions/YYYY-MM-DD.txt  caption for each post (read these to avoid repeating topics)

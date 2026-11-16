@@ -22,6 +22,17 @@ Optional on all: "label" (small grey kicker on the first frame).
 5. versus    This or that, split screen.
    {"format": "versus", "hook": ["Pick one.", "No thinking."], "pairs": [["5am", "6pm"], ...],
     "pair_dur": 1.4, "end": ["Tag the one", "who picked burpees."]}
+6. pace      How to pace a named workout: hook, workout card, a clock that runs while round bars fill
+   (segment widths are seconds), numbered rules, end card. About 18 seconds.
+   {"format": "pace", "label": "How to pace it", "hook": ["Most people blow Fran", "in the first 21."],
+    "workout": {"kicker": "Fran, for time", "lines": ["21-15-9", "Thrusters 43/30 kg", "Pull-ups"], "cap": "Time cap: 10:00"},
+    "headline": ["Pace it like this:", "under 5:00 RX."], "note": "Example RX split. Target 3:30 to 5:00",
+    "seg_names": ["Thrusters", "Pull-ups", "Transitions"],
+    "rows": [{"label": "21", "segs": [55, 40, 10]}, {"label": "15", "segs": [45, 30, 10]}, {"label": "9", "segs": [25, 20, 5]}],
+    "rules": ["Break the thrusters before you need to.", ...], "rules_title": "Three rules.",
+    "end": ["Pacing like this", "comes with every workout."], "end_sub": ["Daily program. 7 days free.", "Link in bio."]}
+   1 to 6 rows, 1 to 4 segments per row (same count in every row). Legend shows a segment's time only when
+   it is the same in every row. Specs: specs/samples/pace.json, specs/samples/pace-fran.json.
 Keep the total 5 to 25 seconds. Brand: #0a0a0a, white, #00FF87, Inter. No emojis, hashtags or em dashes.
 """
 import json, os, subprocess, sys, tempfile
@@ -188,7 +199,110 @@ def versus(s):
     return sc
 
 
-FORMATS = {"oneliner": oneliner, "timer": timer, "flash": flash, "counter": counter, "versus": versus}
+def pace(s):
+    """Pacing breakdown of a named workout: hook, workout card, a clock that runs while round bars fill, rules, end card."""
+    shades = [GREEN, mix(GREEN, 0.62), mix(GREEN, 0.38), mix(GREEN, 0.22)]
+    names, rows = s["seg_names"], s["rows"]
+    if not 1 <= len(rows) <= 6 or not 1 <= len(names) <= 4:
+        raise SystemExit("pace: 1 to 6 rows and 1 to 4 segment names")
+    for r in rows:
+        if len(r["segs"]) != len(names):
+            raise SystemExit(f"pace: row {r['label']} needs {len(names)} segment times")
+    total = sum(sum(r["segs"]) for r in rows)
+    longest = max(sum(r["segs"]) for r in rows)
+    mmss = lambda v: f"{int(v) // 60}:{int(v) % 60:02d}"
+    sc = [scene_text(s["hook"], 2.2, s.get("label", "How to pace it"))]
+
+    w = s["workout"]
+    def card(t):
+        img, d = base()
+        kf, lf, cf = F("Inter-Bold.otf", 44), F("Inter-SemiBold.otf", 58), F("Inter-Medium.otf", 46)
+        body = [l for line in w["lines"] for l in wrap(line, lf, TW - 60)]
+        h = 80 + len(body) * 84 + (80 if w.get("cap") else 0) + 60
+        y0 = TOP + (BOTTOM - TOP - h) / 2
+        d.rounded_rectangle([ML - 30, y0 - 40, W - MR + 30, y0 + h], 32, fill=(24, 24, 24), outline=DIM, width=3)
+        d.text((ML, y0), w["kicker"].upper(), font=kf, fill=GREEN)
+        y = y0 + 90
+        for k, l in enumerate(body):
+            p = ease((t - 0.08 * k) / 0.3)
+            d.text((ML, y + 20 * (1 - p)), l, font=lf, fill=mix(WHITE, p)); y += 84
+        if w.get("cap"):
+            d.text((ML, y + 10), w["cap"], font=cf, fill=mix(GREY, ease((t - 0.4) / 0.3)))
+        return img
+    sc.append((2.6, card))
+
+    run = s.get("clock_dur", 7.0)
+    def clock(t):
+        img, d = base()
+        hf = F("Inter-ExtraBold.otf", 64)
+        d.text((ML, TOP), s["headline"][0], font=hf, fill=WHITE)
+        d.text((ML, TOP + 76), s["headline"][1], font=hf, fill=GREEN)
+        now = total * min(1, t / (run * 0.88))
+        d.text((ML, TOP + 175), mmss(now), font=F("Inter-Black.otf", 170), fill=WHITE)
+        if s.get("note"):
+            d.text((ML, TOP + 380), s["note"], font=F("Inter-Medium.otf", 34), fill=GREY)
+        y_rows, legend_h = TOP + 450, len(names) * 54 + 10
+        pitch = min(125, (BOTTOM - y_rows - legend_h) / len(rows))
+        bh = pitch * 0.72
+        x0, x1 = ML + 100, W - MR
+        start = 0
+        for r in rows:
+            y = y_rows + rows.index(r) * pitch
+            d.text((ML, y + bh / 2), r["label"], font=F("Inter-Bold.otf", 44), fill=WHITE, anchor="lm")
+            d.rounded_rectangle([x0, y, x1, y + bh], 14, fill=(30, 30, 30))
+            cx = x0
+            for k, secs in enumerate(r["segs"]):
+                sw = (x1 - x0) * secs / longest
+                done = max(0, min(secs, now - start))
+                if done > 0:
+                    d.rectangle([cx, y, cx + sw * done / secs, y + bh], fill=shades[k])
+                start += secs; cx += sw
+            if now >= start - 0.5:
+                d.text((cx - 16, y + bh / 2), mmss(start), font=F("Inter-Bold.otf", 38), fill=BG, anchor="rm")
+        ly = BOTTOM - legend_h + 20
+        times = [r["segs"] for r in rows]
+        for k, nm in enumerate(names):
+            same = len({ts[k] for ts in times}) == 1
+            d.rounded_rectangle([ML, ly - 16, ML + 32, ly + 16], 6, fill=shades[k])
+            d.text((ML + 52, ly), nm + (f"  {mmss(times[0][k])}" if same else ""), font=F("Inter-SemiBold.otf", 40), fill=WHITE, anchor="lm")
+            ly += 54
+        return img
+    sc.append((run, clock))
+
+    rules = s.get("rules", [])
+    if rules:
+        def rule_scene(t):
+            img, d = base()
+            d.text((ML, TOP), s.get("rules_title", f"{len(rules)} rules."), font=F("Inter-ExtraBold.otf", 72), fill=WHITE)
+            rf, nf = F("Inter-Bold.otf", 60), F("Inter-Black.otf", 84)
+            y = TOP + 170
+            for i, rule in enumerate(rules):
+                p = ease((t - 0.3 - i * 0.9) / 0.3)
+                if p <= 0:
+                    break
+                d.text((ML, y + 20 * (1 - p)), str(i + 1), font=nf, fill=mix(GREEN, p))
+                ry = y + 10
+                for l in wrap(rule, rf, TW - 110):
+                    d.text((ML + 110, ry + 20 * (1 - p)), l, font=rf, fill=mix(WHITE, p)); ry += 72
+                y = max(y + 140, ry + 50)
+            return img
+        sc.append((0.9 * len(rules) + 1.4, rule_scene))
+
+    def end(t):
+        img, d = base()
+        block(d, s["end"], t, start=110, max_h=520, y=TOP + 160)
+        if s.get("end_sub"):
+            sf = F("Inter-SemiBold.otf", 48)
+            y = TOP + 760
+            subs = [s["end_sub"]] if isinstance(s["end_sub"], str) else s["end_sub"]
+            for l in [x for sub in subs for x in wrap(sub, sf)]:
+                d.text((ML, y), l, font=sf, fill=mix(GREY, ease((t - 0.3) / 0.3))); y += 64
+        return img
+    sc.append((2.8, end))
+    return sc
+
+
+FORMATS = {"oneliner": oneliner, "timer": timer, "flash": flash, "counter": counter, "versus": versus, "pace": pace}
 
 
 def render(spec, out, audio=True):
