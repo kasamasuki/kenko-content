@@ -1,0 +1,73 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Your first",
+  "400 is",
+  "ruining",
+  "your Helen."
+ ],
+ "workout": {
+  "kicker": "Helen, 3 rounds for time",
+  "lines": [
+   "400 m run",
+   "21 KB swings, 24/16 kg",
+   "12 pull-ups"
+  ],
+  "cap": "Time cap: 15:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "under 9:00 RX."
+ ],
+ "note": "Example RX split. Target 8:00 to 10:30",
+ "seg_names": [
+  "Run 400 m",
+  "21 swings",
+  "12 pull-ups",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "R1",
+   "segs": [
+    105,
+    35,
+    18,
+    12
+   ]
+  },
+  {
+   "label": "R2",
+   "segs": [
+    105,
+    38,
+    20,
+    12
+   ]
+  },
+  {
+   "label": "R3",
+   "segs": [
+    105,
+    42,
+    24,
+    10
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Hold 1:45 on every run.",
+  "Swings unbroken. Round 3: 12, then 9.",
+  "Off the bar and straight out the door."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}

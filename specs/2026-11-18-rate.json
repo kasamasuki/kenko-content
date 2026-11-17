@@ -1,0 +1,6 @@
+{
+  "kicker": "Rate this workout",
+  "lines": ["Run 5 km.", "Someone drops", "a bar?", "Start again."],
+  "options": ["A. Love it", "B. Hate it", "C. Still running"],
+  "ask": "Reply with A, B or C."
+}
