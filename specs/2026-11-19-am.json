@@ -1,0 +1,90 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Your DT dies",
+  "in your grip."
+ ],
+ "workout": {
+  "kicker": "DT, 5 rounds for time",
+  "lines": [
+   "12 deadlifts",
+   "9 hang power cleans",
+   "6 push jerks",
+   "70/47.5 kg"
+  ],
+  "cap": "Time cap: 15:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "1:30 a round."
+ ],
+ "note": "Example RX split. Target 6:30 to 9:00",
+ "seg_names": [
+  "12 deadlifts",
+  "9 cleans",
+  "6 jerks",
+  "Breaks"
+ ],
+ "rows": [
+  {
+   "label": "R1",
+   "segs": [
+    24,
+    22,
+    14,
+    25
+   ]
+  },
+  {
+   "label": "R2",
+   "segs": [
+    25,
+    23,
+    15,
+    25
+   ]
+  },
+  {
+   "label": "R3",
+   "segs": [
+    26,
+    24,
+    15,
+    27
+   ]
+  },
+  {
+   "label": "R4",
+   "segs": [
+    26,
+    25,
+    16,
+    27
+   ]
+  },
+  {
+   "label": "R5",
+   "segs": [
+    25,
+    24,
+    15,
+    26
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Cleans 5 + 4 from round 3. Save grip.",
+  "Hold 1:30 a round. Round 1 is not a sprint.",
+  "Short planned breaks. Long ones lose DT."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
