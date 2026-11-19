@@ -1,0 +1,26 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": ["Diane isn't a", "deadlift workout."],
+ "workout": {
+  "kicker": "Diane, for time",
+  "lines": ["21-15-9", "Deadlifts 102/70 kg", "Handstand push-ups"],
+  "cap": "Time cap: 10:00"
+ },
+ "headline": ["Pace it like this:", "around 5:00 RX."],
+ "note": "Example RX split. Target 4:00 to 7:00",
+ "seg_names": ["Deadlifts", "HSPU", "Transitions"],
+ "rows": [
+  {"label": "21", "segs": [60, 75, 10]},
+  {"label": "15", "segs": [40, 55, 10]},
+  {"label": "9", "segs": [22, 30, 5]}
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Deadlifts 11 + 10, 8 + 7, then 9 unbroken.",
+  "Break HSPU early: 7-7-7, 5-5-5, 5-4.",
+  "A failed HSPU costs more than any rest."
+ ],
+ "end": ["Pacing like this", "comes with every workout."],
+ "end_sub": ["Daily program. 7 days free.", "Link in bio."]
+}
