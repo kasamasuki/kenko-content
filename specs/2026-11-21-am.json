@@ -1,0 +1,26 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": ["Grace is lost", "in the reset."],
+ "workout": {
+  "kicker": "Grace, for time",
+  "lines": ["30 clean and jerks", "61/43 kg"],
+  "cap": "Time cap: 8:00"
+ },
+ "headline": ["Pace it like this:", "about 3:00 RX."],
+ "note": "Example RX split. Target 2:30 to 4:00",
+ "seg_names": ["Cleans", "Jerks", "Drop and reset"],
+ "rows": [
+  {"label": "10", "segs": [20, 15, 20]},
+  {"label": "10", "segs": [21, 16, 25]},
+  {"label": "10", "segs": [22, 16, 29]}
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Fast singles from rep 1. Drop, reset, go.",
+  "One rep every 6 seconds. Hold it.",
+  "Hands on hips is where Grace is lost."
+ ],
+ "end": ["Pacing like this", "comes with every workout."],
+ "end_sub": ["Daily program. 7 days free.", "Link in bio."]
+}
