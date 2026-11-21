@@ -1,0 +1,83 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Annie is won",
+  "on sit-ups."
+ ],
+ "workout": {
+  "kicker": "Annie, for time",
+  "lines": [
+   "50-40-30-20-10",
+   "Double-unders",
+   "Sit-ups"
+  ],
+  "cap": "Time cap: 12:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 7:30 RX."
+ ],
+ "note": "Example RX split. Target 7:00 to 9:00",
+ "seg_names": [
+  "Double-unders",
+  "Sit-ups",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "50",
+   "segs": [
+    45,
+    90,
+    10
+   ]
+  },
+  {
+   "label": "40",
+   "segs": [
+    36,
+    72,
+    8
+   ]
+  },
+  {
+   "label": "30",
+   "segs": [
+    28,
+    54,
+    8
+   ]
+  },
+  {
+   "label": "20",
+   "segs": [
+    18,
+    36,
+    6
+   ]
+  },
+  {
+   "label": "10",
+   "segs": [
+    9,
+    18,
+    5
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Break the 50 and 40 rope sets early.",
+  "Hold one sit-up every 2 seconds. No lying flat.",
+  "Annie is won on sit-ups, not the rope."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}

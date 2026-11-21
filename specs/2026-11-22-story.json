@@ -1,0 +1,6 @@
+{
+  "kicker": "Quick one",
+  "lines": ["What's your", "Annie time?"],
+  "options": ["A. Under 7:00", "B. 7:00 to 9:00", "C. Over 9:00", "D. Still tripping"],
+  "ask": "Reply with A, B, C or D."
+}
