@@ -1,0 +1,13 @@
+{
+  "kicker": "Workout of the week",
+  "title": "Press, then 21-15-9.",
+  "parts": [
+    {"name": "Strength", "detail": "Push press",
+     "lines": ["5 x 3 @ 75 to 80%", "Rest 2 min"]},
+    {"name": "Metcon", "detail": "For time, 14 min cap",
+     "lines": ["21-15-9", "Calorie bike", "Hand-release push-ups", "KB goblet squats 24/16kg"]}
+  ],
+  "feel": "Fast but controlled. Aim for 8 to 11 min.",
+  "scale": "Scale: 15-12-9, push-ups on a box, lighter bell.",
+  "ask": "Reply with your time."
+}

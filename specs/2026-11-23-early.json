@@ -1,0 +1,39 @@
+{
+ "format": "timer",
+ "label": "This week's workout",
+ "hook": [
+  "Push press.",
+  "Then 21-15-9."
+ ],
+ "steps": [
+  {
+   "clock": "0:00",
+   "text": "Bike 21. Smooth, not a sprint."
+  },
+  {
+   "clock": "1:15",
+   "text": "Push-ups. Break early. Sets of 7."
+  },
+  {
+   "clock": "3:30",
+   "text": "Goblet squats. Unbroken."
+  },
+  {
+   "clock": "4:30",
+   "text": "Round of 15. Same plan."
+  },
+  {
+   "clock": "7:30",
+   "text": "Round of 9. Go."
+  },
+  {
+   "clock": "9:00",
+   "text": "Done. Log it."
+  }
+ ],
+ "step_dur": 1.6,
+ "end": [
+  "Reply with",
+  "your time."
+ ]
+}

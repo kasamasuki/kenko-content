@@ -1,0 +1,83 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Nobody fails",
+  "Nancy on the run."
+ ],
+ "workout": {
+  "kicker": "Nancy, 5 rounds for time",
+  "lines": [
+   "400 m run",
+   "15 overhead squats",
+   "43/30 kg"
+  ],
+  "cap": "Time cap: 20:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 13:00 RX."
+ ],
+ "note": "Example RX split. Target 11:00 to 15:00",
+ "seg_names": [
+  "Run 400 m",
+  "15 overhead squats",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "R1",
+   "segs": [
+    95,
+    38,
+    14
+   ]
+  },
+  {
+   "label": "R2",
+   "segs": [
+    98,
+    42,
+    14
+   ]
+  },
+  {
+   "label": "R3",
+   "segs": [
+    100,
+    46,
+    15
+   ]
+  },
+  {
+   "label": "R4",
+   "segs": [
+    100,
+    48,
+    15
+   ]
+  },
+  {
+   "label": "R5",
+   "segs": [
+    95,
+    42,
+    12
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Runs at 1:35 to 1:40. Every round.",
+  "Squats 15 unbroken, or 10 + 5 before they fail.",
+  "Nancy is lost when the bar drops overhead."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
