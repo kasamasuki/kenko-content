@@ -1,7 +1,7 @@
 name: fetch-history
 on:
   schedule:
-    - cron: "17 20 * * 0"   # Monday 7:17am Melbourne (AEDT)
+    - cron: "17 16 * * 0"   # Monday 3:17am Melbourne (AEDT); GitHub runs it up to ~4h late, so this lands before the ~10am review
   workflow_dispatch:
 permissions:
   contents: write

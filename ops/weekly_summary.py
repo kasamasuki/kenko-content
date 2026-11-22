@@ -13,6 +13,8 @@ for p in posts:
         hook = (p.get("text") or "").strip().splitlines()[0][:70] if p.get("text") else "(no caption)"
         media = ",".join(sorted({(a.get("mimeType") or "?").split("/")[0] for a in p.get("assets") or []})) or "none"
         extra = ", ".join(f"{k}={v}" for k, v in sorted(m.items()) if k not in ("reach", "shares", "saves")) or "-"
+        if not m:
+            extra = "NO METRICS (Buffer has none yet: too recent, expired Story or deleted post; not a zero)"
         week.append((sent, hook, m.get("reach", 0), m.get("shares", 0), m.get("saves", 0), media, extra))
 print(f"# Weekly summary ({now.date().isoformat()})\n")
 if not week:
