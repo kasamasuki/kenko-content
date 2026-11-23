@@ -1,0 +1,54 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Your Jackie",
+  "is lost on",
+  "the rower."
+ ],
+ "workout": {
+  "kicker": "Jackie, for time",
+  "lines": [
+   "1000 m row",
+   "50 thrusters 20/15 kg",
+   "30 pull-ups"
+  ],
+  "cap": "Time cap: 12:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 7:30 RX."
+ ],
+ "note": "Example RX split. Target 6:30 to 8:30",
+ "seg_names": [
+  "Row 1000 m",
+  "50 thrusters",
+  "30 pull-ups",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "RX",
+   "segs": [
+    220,
+    140,
+    70,
+    20
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Row 1:50 per 500. Not your 1k PR pace.",
+  "Thrusters 20-15-15. Pull-ups 15-10-5.",
+  "Sprint the row and the thrusters fall apart."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
