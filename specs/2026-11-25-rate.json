@@ -1,0 +1,15 @@
+{
+  "kicker": "Rate this workout",
+  "lines": [
+    "Burpees for time.",
+    "Ask how many",
+    "are left?",
+    "Add 10."
+  ],
+  "options": [
+    "A. Love it",
+    "B. Hate it",
+    "C. Coach is unwell"
+  ],
+  "ask": "Reply with A, B or C."
+}

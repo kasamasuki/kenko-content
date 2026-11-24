@@ -1,0 +1,64 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Stop going",
+  "unbroken",
+  "on Karen."
+ ],
+ "workout": {
+  "kicker": "Karen, for time",
+  "lines": [
+   "150 wall-ball shots",
+   "9/6 kg",
+   "10/9 ft target"
+  ],
+  "cap": "Time cap: 12:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 7:00 RX."
+ ],
+ "note": "Example RX split. Target 6:00 to 8:30",
+ "seg_names": [
+  "Wall balls",
+  "Planned rest"
+ ],
+ "rows": [
+  {
+   "label": "50",
+   "segs": [
+    104,
+    16
+   ]
+  },
+  {
+   "label": "50",
+   "segs": [
+    108,
+    32
+   ]
+  },
+  {
+   "label": "50",
+   "segs": [
+    112,
+    48
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Sets of 25 from rep 1. Then 15 to 20.",
+  "Rest 5 breaths. Count them. Pick it up.",
+  "Karen is lost standing over the ball."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
