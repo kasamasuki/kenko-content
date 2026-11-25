@@ -1,0 +1,67 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Elizabeth is",
+  "decided on",
+  "ring dips."
+ ],
+ "workout": {
+  "kicker": "Elizabeth, for time",
+  "lines": [
+   "21-15-9",
+   "Squat cleans 61/43 kg",
+   "Ring dips"
+  ]
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 7:10 RX."
+ ],
+ "note": "Example RX split. Target 6:00 to 9:00",
+ "seg_names": [
+  "Squat cleans",
+  "Ring dips",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "21",
+   "segs": [
+    105,
+    75,
+    20
+   ]
+  },
+  {
+   "label": "15",
+   "segs": [
+    75,
+    55,
+    15
+   ]
+  },
+  {
+   "label": "9",
+   "segs": [
+    45,
+    30,
+    10
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Squat cleans: fast singles, one breath each.",
+  "Break the 21 dips early: 8, 7, 6.",
+  "Elizabeth is lost on a failed dip."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
