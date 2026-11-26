@@ -1,0 +1,27 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": ["Your Kelly", "is lost in", "round one."],
+ "workout": {
+  "kicker": "Kelly, 5 rounds for time",
+  "lines": ["400 m run", "30 box jumps 24/20 in", "30 wall balls 9/6 kg"]
+ },
+ "headline": ["Pace it like this:", "about 32:00 RX."],
+ "note": "Example RX split. Target 28:00 to 36:00",
+ "seg_names": ["Run 400 m", "Box jumps", "Wall balls", "Transitions"],
+ "rows": [
+  {"label": "R1", "segs": [110, 105, 120, 35]},
+  {"label": "R2", "segs": [112, 108, 125, 35]},
+  {"label": "R3", "segs": [115, 110, 128, 37]},
+  {"label": "R4", "segs": [117, 112, 130, 36]},
+  {"label": "R5", "segs": [110, 112, 127, 36]}
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Run round one at your round five pace.",
+  "Step down every box jump. Wall balls 15-15.",
+  "Kelly is lost sprinting the first 400."
+ ],
+ "end": ["Pacing like this", "comes with every workout."],
+ "end_sub": ["Daily program. 7 days free.", "Link in bio."]
+}
