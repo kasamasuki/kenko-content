@@ -1,0 +1,56 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "Your Angie",
+  "dies on",
+  "the floor,",
+  "not the bar."
+ ],
+ "workout": {
+  "kicker": "Angie, for time",
+  "lines": [
+   "100 pull-ups",
+   "100 push-ups",
+   "100 sit-ups",
+   "100 air squats"
+  ],
+  "cap": "Time cap: 25:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 16:30 RX."
+ ],
+ "note": "Example RX split. Target 14:00 to 20:00",
+ "seg_names": [
+  "100 pull-ups",
+  "100 push-ups",
+  "100 sit-ups",
+  "100 air squats"
+ ],
+ "rows": [
+  {
+   "label": "RX",
+   "segs": [
+    300,
+    330,
+    210,
+    150
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Pull-ups in sets of 10. Leave 2 in the tank.",
+  "Push-ups in quick sets of 10 from rep 1.",
+  "Angie dies in push-up singles on the floor."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
