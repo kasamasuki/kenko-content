@@ -1,0 +1,4 @@
+Coach: "Okay, quick explanation."
+The clock says 8:47.
+
+Tag the coach who explains it twice.
