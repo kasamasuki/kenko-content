@@ -1,0 +1,71 @@
+{
+ "format": "pace",
+ "label": "How to pace it",
+ "hook": [
+  "24.1 is",
+  "a burpee workout",
+  "in disguise."
+ ],
+ "workout": {
+  "kicker": "Open 24.1, for time",
+  "lines": [
+   "21-15-9",
+   "DB snatches, arm 1",
+   "Lateral burpees over DB",
+   "DB snatches, arm 2",
+   "Lateral burpees over DB",
+   "DB 22.5/15 kg"
+  ],
+  "cap": "Time cap: 15:00"
+ },
+ "headline": [
+  "Pace it like this:",
+  "about 10:30 RX."
+ ],
+ "note": "Example RX split. Target 9:00 to 12:00",
+ "seg_names": [
+  "DB snatches",
+  "Lateral burpees",
+  "Transitions"
+ ],
+ "rows": [
+  {
+   "label": "21",
+   "segs": [
+    110,
+    170,
+    12
+   ]
+  },
+  {
+   "label": "15",
+   "segs": [
+    78,
+    124,
+    10
+   ]
+  },
+  {
+   "label": "9",
+   "segs": [
+    46,
+    76,
+    8
+   ]
+  }
+ ],
+ "rules_title": "Three rules.",
+ "rules": [
+  "Snatches unbroken. Breathe at the top.",
+  "Burpees on a rhythm. Step down, hop over.",
+  "24.1 is lost sprinting the first 21 burpees."
+ ],
+ "end": [
+  "Pacing like this",
+  "comes with every workout."
+ ],
+ "end_sub": [
+  "Daily program. 7 days free.",
+  "Link in bio."
+ ]
+}
